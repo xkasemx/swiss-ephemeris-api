@@ -123,3 +123,49 @@ def transit_windows():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+@app.route('/transit-windows/batch', methods=['POST'])
+def batch_transit_windows():
+    try:
+        data = request.get_json()
+
+        natal_chart = data.get("natal_chart")
+        start_date = data.get("start_date")
+        end_date = data.get("end_date")
+        orb = float(data.get("orb", 2.5))
+        transit_planets = data.get("transit_planets", ["Sun", "Moon", "Mercury", "Venus", "Mars", "Jupiter", "Saturn"])
+
+        aspects = {
+            "Conjunction": 0,
+            "Sextile": 60,
+            "Square": 90,
+            "Trine": 120,
+            "Opposition": 180
+        }
+
+        if not natal_chart or not start_date or not end_date:
+            return jsonify({"error": "Missing required fields: 'natal_chart', 'start_date', or 'end_date'"}), 400
+
+        results = []
+
+        for t_planet in transit_planets:
+            for n_planet, n_deg in natal_chart.items():
+                for aspect_name, aspect_angle in aspects.items():
+                    window = find_transit_windows(
+                        transit_planet=t_planet,
+                        natal_planet=n_planet,
+                        natal_deg=n_deg,
+                        aspect_angle=aspect_angle,
+                        orb=orb,
+                        start_date=start_date,
+                        end_date=end_date
+                    )
+                    if window:
+                        window["aspect"] = aspect_name
+                        results.append(window)
+
+        return jsonify({"results": results})
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
