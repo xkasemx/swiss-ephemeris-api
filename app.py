@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from transit_checker import calculate_aspects
 import swisseph as swe
 import datetime
 import os
@@ -72,3 +73,24 @@ def transit():
 @app.route("/")
 def root():
     return "✅ Swiss Ephemeris API is live!"
+
+@app.route('/aspects', methods=['POST'])
+def aspects():
+    try:
+        data = request.get_json()
+
+        natal_chart = data.get("natal_chart")
+        transits = data.get("transits")
+        orb = float(data.get("orb", 2.0))  # Default orb is 2.0 degrees
+
+        if not natal_chart or not transits:
+            return jsonify({
+                "error": "Missing required fields: 'natal_chart' and/or 'transits'"
+            }), 400
+
+        results = calculate_aspects(transits, natal_chart, orb)
+        return jsonify({"aspects": results})
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
