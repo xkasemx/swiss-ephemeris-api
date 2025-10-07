@@ -4,7 +4,16 @@ import datetime
 
 app = Flask(__name__)
 import os
-swe.set_ephe_path(os.path.join(os.path.dirname(__file__), "swisseph_data"))
+import os
+
+# Get absolute path to swisseph_data directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+EPHE_PATH = os.path.join(BASE_DIR, "swisseph_data")
+
+print("Setting ephemeris path to:", EPHE_PATH)
+print("Files in ephemeris dir:", os.listdir(EPHE_PATH))
+
+swe.set_ephe_path(EPHE_PATH)
 
 @app.route("/transit", methods=["GET"])
 def transit():
