@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from transit_checker import calculate_aspects
+from transit_checker import calculate_aspects, find_transit_windows
 import swisseph as swe
 import datetime
 import os
@@ -16,7 +16,7 @@ swe.set_ephe_path(EPHE_PATH)
 @app.route("/transit", methods=["GET"])
 def transit():
     date_str = request.args.get("date", "")
-    zodiac = request.args.get("zodiac", "tropical").lower()  # "tropical" or "sidereal"
+    zodiac = request.args.get("zodiac", "tropical").lower()
 
     try:
         year, month, day = map(int, date_str.split("-"))
@@ -28,9 +28,8 @@ def transit():
         swe.set_sid_mode(swe.SIDM_LAHIRI)
         flag = swe.FLG_SIDEREAL
     else:
-        flag = 0  # tropical is default
+        flag = 0
 
-    # Define planetary constants
     planets = {
         "Sun": swe.SUN,
         "Moon": swe.MOON,
@@ -44,7 +43,7 @@ def transit():
         "Pluto": swe.PLUTO,
         "True Node": swe.TRUE_NODE,
         "Chiron": swe.CHIRON,
-        "Lilith": swe.MEAN_APOG  # Black Moon Lilith
+        "Lilith": swe.MEAN_APOG
     }
 
     output = {}
@@ -81,7 +80,7 @@ def aspects():
 
         natal_chart = data.get("natal_chart")
         transits = data.get("transits")
-        orb = float(data.get("orb", 2.0))  # Default orb is 2.0 degrees
+        orb = float(data.get("orb", 2.0))
 
         if not natal_chart or not transits:
             return jsonify({
@@ -94,3 +93,33 @@ def aspects():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/transit-windows', methods=['POST'])
+def transit_windows():
+    try:
+        data = request.get_json()
+
+        transit_planet = data.get("transit_planet")
+        natal_planet = data.get("natal_planet")
+        natal_deg = float(data.get("natal_degree"))
+        aspect_angle = float(data.get("aspect_angle"))
+        orb = float(data.get("orb", 2.5))
+        start_date = data.get("start_date")
+        end_date = data.get("end_date")
+
+        if not all([transit_planet, natal_planet, natal_deg, aspect_angle, start_date, end_date]):
+            return jsonify({"error": "Missing one or more required fields"}), 400
+
+        result = find_transit_windows(
+            transit_planet=transit_planet,
+            natal_planet=natal_planet,
+            natal_deg=natal_deg,
+            aspect_angle=aspect_angle,
+            orb=orb,
+            start_date=start_date,
+            end_date=end_date
+        )
+
+        return jsonify(result or {"message": "No aspect found in that window"})
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
