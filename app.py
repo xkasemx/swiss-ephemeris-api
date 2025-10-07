@@ -3,25 +3,26 @@ import swisseph as swe
 import datetime
 
 app = Flask(__name__)
-swe.set_ephe_path('.')  # Swiss ephemeris files live here
+swe.set_ephe_path('.')  # Path to ephemeris files
 
 @app.route("/transit", methods=["GET"])
 def transit():
     date_str = request.args.get("date", "")
-    zodiac = request.args.get("zodiac", "tropical")  # or sidereal
+    zodiac = request.args.get("zodiac", "tropical").lower()  # "tropical" or "sidereal"
 
     try:
         year, month, day = map(int, date_str.split("-"))
         jd = swe.julday(year, month, day)
     except:
-        return jsonify({"error": "Invalid or missing date format. Use YYYY-MM-DD"}), 400
+        return jsonify({"error": "Invalid or missing date. Use format: YYYY-MM-DD"}), 400
 
     if zodiac == "sidereal":
         swe.set_sid_mode(swe.SIDM_LAHIRI)
         flag = swe.FLG_SIDEREAL
     else:
-        flag = 0  # tropical
+        flag = 0  # tropical is default
 
+    # Define planetary constants
     planets = {
         "Sun": swe.SUN,
         "Moon": swe.MOON,
@@ -35,16 +36,22 @@ def transit():
         "Pluto": swe.PLUTO,
         "True Node": swe.TRUE_NODE,
         "Chiron": swe.CHIRON,
-        "Lilith": swe.MEAN_APOG  # aka Black Moon Lilith
+        "Lilith": swe.MEAN_APOG  # Black Moon Lilith
     }
 
     output = {}
+
     for name, const in planets.items():
         try:
             pos, _ = swe.calc_ut(jd, const, flag)
+            longitude = round(pos[0], 4)
+            speed = round(pos[3], 4)
+            retrograde = speed < 0
+
             output[name] = {
-                "longitude": round(pos[0], 4),
-                "speed": round(pos[3], 4)
+                "longitude": longitude,
+                "speed": speed,
+                "retrograde": retrograde
             }
         except Exception as e:
             output[name] = {"error": str(e)}
@@ -57,9 +64,8 @@ def transit():
 
 @app.route("/")
 def root():
-    return "Swiss Ephemeris API is live!"
+    return "✅ Swiss Ephemeris API is live!"
 
-# 🔧 THIS MUST BE AT THE END
+# Required for Render to stay alive
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
-
