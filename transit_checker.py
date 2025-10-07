@@ -104,3 +104,17 @@ def find_transit_windows(transit_planet, natal_planet, natal_deg, aspect_angle, 
         }
     else:
         return None
+
+def get_sign_info(longitude):
+    signs = [
+        "Aries", "Taurus", "Gemini", "Cancer",
+        "Leo", "Virgo", "Libra", "Scorpio",
+        "Sagittarius", "Capricorn", "Aquarius", "Pisces"
+    ]
+    index = int(longitude // 30) % 12
+    degree_in_sign = longitude % 30
+    return {
+        "name": signs[index],
+        "degree": int(degree_in_sign),
+        "minute": int(round((degree_in_sign % 1) * 60))
+    }

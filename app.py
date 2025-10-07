@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from transit_checker import calculate_aspects, find_transit_windows
+from transit_checker import calculate_aspects, find_transit_windows, get_sign_info
 import swisseph as swe
 import datetime
 import os
@@ -58,7 +58,8 @@ def transit():
             output[name] = {
                 "longitude": longitude,
                 "speed": speed,
-                "retrograde": retrograde
+                "retrograde": retrograde,
+                "sign": get_sign_info(longitude)
             }
         except Exception as e:
             output[name] = {"error": str(e)}
@@ -168,4 +169,3 @@ def batch_transit_windows():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
