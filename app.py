@@ -3,7 +3,8 @@ import swisseph as swe
 import datetime
 
 app = Flask(__name__)
-swe.set_ephe_path('.')  # Path to ephemeris files
+import os
+swe.set_ephe_path(os.path.join(os.path.dirname(__file__), "swisseph_data"))
 
 @app.route("/transit", methods=["GET"])
 def transit():
