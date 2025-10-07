@@ -1,18 +1,15 @@
 from flask import Flask, request, jsonify
 import swisseph as swe
 import datetime
+import os
 
 app = Flask(__name__)
-import os
-import os
 
-# Get absolute path to swisseph_data directory
+# Setup Swiss Ephemeris absolute path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EPHE_PATH = os.path.join(BASE_DIR, "swisseph_data")
-
 print("Setting ephemeris path to:", EPHE_PATH)
 print("Files in ephemeris dir:", os.listdir(EPHE_PATH))
-
 swe.set_ephe_path(EPHE_PATH)
 
 @app.route("/transit", methods=["GET"])
@@ -53,7 +50,7 @@ def transit():
 
     for name, const in planets.items():
         try:
-            pos, _ = swe.calc_ut(jd, const, flag)
+            pos, _ = swe.calc_ut(jd, const, flag | swe.FLG_SPEED)
             longitude = round(pos[0], 4)
             speed = round(pos[3], 4)
             retrograde = speed < 0
@@ -75,7 +72,3 @@ def transit():
 @app.route("/")
 def root():
     return "✅ Swiss Ephemeris API is live!"
-
-# Required for Render to stay alive
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)
