@@ -1,0 +1,3492 @@
+{
+  "metadata": {
+    "type": "Vimshottari",
+    "source": "User-supplied complete timeline with Antardashas",
+    "generated": "2025-10-06T00:00:00Z",
+    "timezone": "UTC",
+    "notes": "Full 120-year Vimshottari cycle with Mahadashas and Antardashas, computed from Moon in Chitra Nakshatra (Libra)."
+  },
+  "dashas": [
+    {
+      "id": "kasem_1980",
+      "name": "Kasem",
+      "birth_time": "1980-12-03T16:37:00Z",
+      "mahadashas": [
+        {
+          "mahadasha": "Mars",
+          "start": "1980-12-03",
+          "end": "1981-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Venus",
+              "start": "1980-12-03",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1980-12-03",
+                  "end": "1980-12-04"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1980-12-04",
+                  "end": "1980-12-09"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1980-12-09",
+                  "end": "1980-12-10"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1980-12-10",
+                  "end": "1980-12-13"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1980-12-13",
+                  "end": "1980-12-14"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1980-12-14",
+                  "end": "1980-12-18"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1980-12-18",
+                  "end": "1980-12-22"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1980-12-22",
+                  "end": "1980-12-27"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1980-12-27",
+                  "end": "1980-12-31"
+                }
+              ]
+            },
+            {
+              "antardasha": "Sun",
+              "start": "1980-12-31",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1980-12-31",
+                  "end": "1981-01-07"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1981-01-07",
+                  "end": "1981-01-28"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1981-01-28",
+                  "end": "1981-02-03"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1981-02-03",
+                  "end": "1981-02-14"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1981-02-14",
+                  "end": "1981-02-21"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1981-02-21",
+                  "end": "1981-03-12"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1981-03-12",
+                  "end": "1981-03-29"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1981-03-29",
+                  "end": "1981-04-19"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1981-04-19",
+                  "end": "1981-05-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Moon",
+              "start": "1981-05-07",
+              "pratyantardashas": []
+            }
+          ]
+        },
+        {
+          "mahadasha": "Rahu",
+          "start": "1981-12-07",
+          "end": "1999-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Rahu",
+              "start": "1981-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1981-12-07",
+                  "end": "1982-02-02"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1982-02-02",
+                  "end": "1982-07-16"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1982-07-16",
+                  "end": "1982-09-04"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1982-09-04",
+                  "end": "1982-11-25"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1982-11-25",
+                  "end": "1983-01-21"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1983-01-21",
+                  "end": "1983-06-18"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1983-06-18",
+                  "end": "1983-10-28"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1983-10-28",
+                  "end": "1984-04-01"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1984-04-01",
+                  "end": "1984-08-19"
+                }
+              ]
+            },
+            {
+              "antardasha": "Jupiter",
+              "start": "1984-08-19",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1984-08-19",
+                  "end": "1984-10-09"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1984-10-09",
+                  "end": "1985-03-04"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1985-03-04",
+                  "end": "1985-04-16"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1985-04-16",
+                  "end": "1985-06-28"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1985-06-28",
+                  "end": "1985-08-19"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1985-08-19",
+                  "end": "1985-12-28"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1985-12-28",
+                  "end": "1986-04-24"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1986-04-24",
+                  "end": "1986-09-09"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1986-09-09",
+                  "end": "1987-01-12"
+                }
+              ]
+            },
+            {
+              "antardasha": "Saturn",
+              "start": "1987-01-12",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1987-01-12",
+                  "end": "1987-03-13"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1987-03-13",
+                  "end": "1987-09-03"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1987-09-03",
+                  "end": "1987-10-25"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1987-10-25",
+                  "end": "1988-01-20"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1988-01-20",
+                  "end": "1988-03-20"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1988-03-20",
+                  "end": "1988-08-23"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1988-08-23",
+                  "end": "1989-01-09"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1989-01-09",
+                  "end": "1989-06-23"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1989-06-23",
+                  "end": "1989-11-18"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mercury",
+              "start": "1989-11-18",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1989-11-18",
+                  "end": "1990-01-11"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1990-01-11",
+                  "end": "1990-06-15"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1990-06-15",
+                  "end": "1990-07-31"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1990-07-31",
+                  "end": "1990-10-17"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1990-10-17",
+                  "end": "1990-12-10"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1990-12-10",
+                  "end": "1991-04-29"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1991-04-29",
+                  "end": "1991-08-31"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1991-08-31",
+                  "end": "1992-01-25"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1992-01-25",
+                  "end": "1992-06-05"
+                }
+              ]
+            },
+            {
+              "antardasha": "Ketu",
+              "start": "1992-06-05",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1992-06-05",
+                  "end": "1992-06-27"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1992-06-27",
+                  "end": "1992-08-30"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1992-08-30",
+                  "end": "1992-09-18"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1992-09-18",
+                  "end": "1992-10-20"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1992-10-20",
+                  "end": "1992-11-11"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1992-11-11",
+                  "end": "1993-01-08"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1993-01-08",
+                  "end": "1993-02-28"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1993-02-28",
+                  "end": "1993-04-29"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1993-04-29",
+                  "end": "1993-06-23"
+                }
+              ]
+            },
+            {
+              "antardasha": "Venus",
+              "start": "1993-06-23",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1993-06-23",
+                  "end": "1993-08-25"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1993-08-25",
+                  "end": "1994-02-24"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1994-02-24",
+                  "end": "1994-04-20"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1994-04-20",
+                  "end": "1994-07-20"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1994-07-20",
+                  "end": "1994-09-22"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1994-09-22",
+                  "end": "1995-03-06"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1995-03-06",
+                  "end": "1995-07-30"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1995-07-30",
+                  "end": "1996-01-19"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1996-01-19",
+                  "end": "1996-06-23"
+                }
+              ]
+            },
+            {
+              "antardasha": "Sun",
+              "start": "1996-06-23",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1996-06-23",
+                  "end": "1996-07-12"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1996-07-12",
+                  "end": "1996-09-04"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1996-09-04",
+                  "end": "1996-09-21"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1996-09-21",
+                  "end": "1996-10-18"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1996-10-18",
+                  "end": "1996-11-06"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1996-11-06",
+                  "end": "1996-12-25"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1996-12-25",
+                  "end": "1997-02-07"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1997-02-07",
+                  "end": "1997-03-31"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1997-03-31",
+                  "end": "1997-05-17"
+                }
+              ]
+            },
+            {
+              "antardasha": "Moon",
+              "start": "1997-05-17",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1997-05-17",
+                  "end": "1997-06-18"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "1997-06-18",
+                  "end": "1997-09-17"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "1997-09-17",
+                  "end": "1997-10-14"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "1997-10-14",
+                  "end": "1997-11-29"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "1997-11-29",
+                  "end": "1997-12-31"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "1997-12-31",
+                  "end": "1998-03-24"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "1998-03-24",
+                  "end": "1998-06-05"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "1998-06-05",
+                  "end": "1998-08-31"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "1998-08-31",
+                  "end": "1998-11-17"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mars",
+              "start": "1998-11-17",
+              "pratyantardashas": []
+            }
+          ]
+        },
+        {
+          "mahadasha": "Jupiter",
+          "start": "1999-12-07",
+          "end": "2015-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Jupiter",
+              "start": "1999-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "1999-12-07",
+                  "end": "2000-01-21"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2000-01-21",
+                  "end": "2000-05-30"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2000-05-30",
+                  "end": "2000-07-08"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2000-07-08",
+                  "end": "2000-09-11"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2000-09-11",
+                  "end": "2000-10-27"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2000-10-27",
+                  "end": "2001-02-21"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2001-02-21",
+                  "end": "2001-06-05"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2001-06-05",
+                  "end": "2001-10-06"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2001-10-06",
+                  "end": "2002-01-25"
+                }
+              ]
+            },
+            {
+              "antardasha": "Saturn",
+              "start": "2002-01-25",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2002-01-25",
+                  "end": "2002-03-19"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2002-03-19",
+                  "end": "2002-08-20"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2002-08-20",
+                  "end": "2002-10-06"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2002-10-06",
+                  "end": "2002-12-22"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2002-12-22",
+                  "end": "2003-02-14"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2003-02-14",
+                  "end": "2003-07-02"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2003-07-02",
+                  "end": "2003-11-02"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2003-11-02",
+                  "end": "2004-03-28"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2004-03-28",
+                  "end": "2004-08-06"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mercury",
+              "start": "2004-08-06",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2004-08-06",
+                  "end": "2004-09-23"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2004-09-23",
+                  "end": "2005-02-08"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2005-02-08",
+                  "end": "2005-03-21"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2005-03-21",
+                  "end": "2005-05-29"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2005-05-29",
+                  "end": "2005-07-17"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2005-07-17",
+                  "end": "2005-11-18"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2005-11-18",
+                  "end": "2006-03-08"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2006-03-08",
+                  "end": "2006-07-17"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2006-07-17",
+                  "end": "2006-11-12"
+                }
+              ]
+            },
+            {
+              "antardasha": "Ketu",
+              "start": "2006-11-12",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2006-11-12",
+                  "end": "2006-12-01"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2006-12-01",
+                  "end": "2007-01-27"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2007-01-27",
+                  "end": "2007-02-13"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2007-02-13",
+                  "end": "2007-03-13"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2007-03-13",
+                  "end": "2007-04-02"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2007-04-02",
+                  "end": "2007-05-23"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2007-05-23",
+                  "end": "2007-07-08"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2007-07-08",
+                  "end": "2007-08-30"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2007-08-30",
+                  "end": "2007-10-18"
+                }
+              ]
+            },
+            {
+              "antardasha": "Venus",
+              "start": "2007-10-18",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2007-10-18",
+                  "end": "2007-12-13"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2007-12-13",
+                  "end": "2008-05-24"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2008-05-24",
+                  "end": "2008-07-11"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2008-07-11",
+                  "end": "2008-10-01"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2008-10-01",
+                  "end": "2008-11-26"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2008-11-26",
+                  "end": "2009-04-21"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2009-04-21",
+                  "end": "2009-08-29"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2009-08-29",
+                  "end": "2010-01-31"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2010-01-31",
+                  "end": "2010-06-18"
+                }
+              ]
+            },
+            {
+              "antardasha": "Sun",
+              "start": "2010-06-18",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2010-06-18",
+                  "end": "2010-07-04"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2010-07-04",
+                  "end": "2010-08-22"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2010-08-22",
+                  "end": "2010-09-06"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2010-09-06",
+                  "end": "2010-09-30"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2010-09-30",
+                  "end": "2010-10-17"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2010-10-17",
+                  "end": "2010-11-29"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2010-11-29",
+                  "end": "2011-01-07"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2011-01-07",
+                  "end": "2011-02-22"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2011-02-22",
+                  "end": "2011-04-05"
+                }
+              ]
+            },
+            {
+              "antardasha": "Moon",
+              "start": "2011-04-05",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2011-04-05",
+                  "end": "2011-05-03"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2011-05-03",
+                  "end": "2011-07-23"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2011-07-23",
+                  "end": "2011-08-17"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2011-08-17",
+                  "end": "2011-09-26"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2011-09-26",
+                  "end": "2011-10-25"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2011-10-25",
+                  "end": "2012-01-06"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2012-01-06",
+                  "end": "2012-03-11"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2012-03-11",
+                  "end": "2012-05-27"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2012-05-27",
+                  "end": "2012-08-05"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mars",
+              "start": "2012-08-05",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2012-08-05",
+                  "end": "2012-08-24"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2012-08-24",
+                  "end": "2012-10-20"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2012-10-20",
+                  "end": "2012-11-06"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2012-11-06",
+                  "end": "2012-12-04"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2012-12-04",
+                  "end": "2012-12-24"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2012-12-24",
+                  "end": "2013-02-13"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2013-02-13",
+                  "end": "2013-03-31"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2013-03-31",
+                  "end": "2013-05-23"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2013-05-23",
+                  "end": "2013-07-11"
+                }
+              ]
+            },
+            {
+              "antardasha": "Rahu",
+              "start": "2013-07-11",
+              "pratyantardashas": []
+            }
+          ]
+        },
+        {
+          "mahadasha": "Saturn",
+          "start": "2015-12-07",
+          "end": "2034-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Saturn",
+              "start": "2015-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2015-12-07",
+                  "end": "2016-02-09"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2016-02-09",
+                  "end": "2016-08-10"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2016-08-10",
+                  "end": "2016-10-04"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2016-10-04",
+                  "end": "2017-01-03"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2017-01-03",
+                  "end": "2017-03-08"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2017-03-08",
+                  "end": "2017-08-20"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2017-08-20",
+                  "end": "2018-01-14"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2018-01-14",
+                  "end": "2018-07-07"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2018-07-07",
+                  "end": "2018-12-10"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mercury",
+              "start": "2018-12-10",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2018-12-10",
+                  "end": "2019-02-05"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2019-02-05",
+                  "end": "2019-07-19"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2019-07-19",
+                  "end": "2019-09-06"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2019-09-06",
+                  "end": "2019-11-27"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2019-11-27",
+                  "end": "2020-01-23"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2020-01-23",
+                  "end": "2020-06-19"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2020-06-19",
+                  "end": "2020-10-28"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2020-10-28",
+                  "end": "2021-04-01"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2021-04-01",
+                  "end": "2021-08-19"
+                }
+              ]
+            },
+            {
+              "antardasha": "Ketu",
+              "start": "2021-08-19",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2021-08-19",
+                  "end": "2021-09-11"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2021-09-11",
+                  "end": "2021-11-18"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2021-11-18",
+                  "end": "2021-12-08"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2021-12-08",
+                  "end": "2022-01-11"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2022-01-11",
+                  "end": "2022-02-03"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2022-02-03",
+                  "end": "2022-04-05"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2022-04-05",
+                  "end": "2022-05-29"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2022-05-29",
+                  "end": "2022-08-01"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2022-08-01",
+                  "end": "2022-09-28"
+                }
+              ]
+            },
+            {
+              "antardasha": "Venus",
+              "start": "2022-09-28",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2022-09-28",
+                  "end": "2022-12-04"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2022-12-04",
+                  "end": "2023-06-15"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2023-06-15",
+                  "end": "2023-08-12"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2023-08-12",
+                  "end": "2023-11-16"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2023-11-16",
+                  "end": "2024-01-23"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2024-01-23",
+                  "end": "2024-07-14"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2024-07-14",
+                  "end": "2024-12-15"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2024-12-15",
+                  "end": "2025-06-17"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2025-06-17",
+                  "end": "2025-11-28"
+                }
+              ]
+            },
+            {
+              "antardasha": "Sun",
+              "start": "2025-11-28",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2025-11-28",
+                  "end": "2025-12-18"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2025-12-18",
+                  "end": "2026-02-13"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2026-02-13",
+                  "end": "2026-03-03"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2026-03-03",
+                  "end": "2026-03-31"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2026-03-31",
+                  "end": "2026-04-21"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2026-04-21",
+                  "end": "2026-06-12"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2026-06-12",
+                  "end": "2026-07-28"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2026-07-28",
+                  "end": "2026-09-20"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2026-09-20",
+                  "end": "2026-11-09"
+                }
+              ]
+            },
+            {
+              "antardasha": "Moon",
+              "start": "2026-11-09",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2026-11-09",
+                  "end": "2026-12-12"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2026-12-12",
+                  "end": "2027-03-19"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2027-03-19",
+                  "end": "2027-04-16"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2027-04-16",
+                  "end": "2027-06-04"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2027-06-04",
+                  "end": "2027-07-07"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2027-07-07",
+                  "end": "2027-10-02"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2027-10-02",
+                  "end": "2027-12-18"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2027-12-18",
+                  "end": "2028-03-19"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2028-03-19",
+                  "end": "2028-06-09"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mars",
+              "start": "2028-06-09",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2028-06-09",
+                  "end": "2028-07-02"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2028-07-02",
+                  "end": "2028-09-07"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2028-09-07",
+                  "end": "2028-09-28"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2028-09-28",
+                  "end": "2028-10-31"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2028-10-31",
+                  "end": "2028-11-24"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2028-11-24",
+                  "end": "2029-01-23"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2029-01-23",
+                  "end": "2029-03-18"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2029-03-18",
+                  "end": "2029-05-21"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2029-05-21",
+                  "end": "2029-07-18"
+                }
+              ]
+            },
+            {
+              "antardasha": "Rahu",
+              "start": "2029-07-18",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2029-07-18",
+                  "end": "2029-09-16"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2029-09-16",
+                  "end": "2030-03-09"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2030-03-09",
+                  "end": "2030-04-30"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2030-04-30",
+                  "end": "2030-07-26"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2030-07-26",
+                  "end": "2030-09-24"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2030-09-24",
+                  "end": "2031-02-27"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2031-02-27",
+                  "end": "2031-07-16"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2031-07-16",
+                  "end": "2031-12-28"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2031-12-28",
+                  "end": "2032-05-24"
+                }
+              ]
+            },
+            {
+              "antardasha": "Jupiter",
+              "start": "2032-05-24",
+              "pratyantardashas": []
+            }
+          ]
+        },
+        {
+          "mahadasha": "Mercury",
+          "start": "2034-12-07",
+          "end": "2051-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Mercury",
+              "start": "2034-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2034-12-07",
+                  "end": "2035-01-27"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2035-01-27",
+                  "end": "2035-06-22"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2035-06-22",
+                  "end": "2035-08-05"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2035-08-05",
+                  "end": "2035-10-17"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2035-10-17",
+                  "end": "2035-12-08"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2035-12-08",
+                  "end": "2036-04-18"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2036-04-18",
+                  "end": "2036-08-13"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2036-08-13",
+                  "end": "2036-12-30"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2036-12-30",
+                  "end": "2037-05-04"
+                }
+              ]
+            },
+            {
+              "antardasha": "Ketu",
+              "start": "2037-05-04",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2037-05-04",
+                  "end": "2037-05-25"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2037-05-25",
+                  "end": "2037-07-24"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2037-07-24",
+                  "end": "2037-08-11"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2037-08-11",
+                  "end": "2037-09-10"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2037-09-10",
+                  "end": "2037-10-01"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2037-10-01",
+                  "end": "2037-11-25"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2037-11-25",
+                  "end": "2038-01-12"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2038-01-12",
+                  "end": "2038-03-10"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2038-03-10",
+                  "end": "2038-05-01"
+                }
+              ]
+            },
+            {
+              "antardasha": "Venus",
+              "start": "2038-05-01",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2038-05-01",
+                  "end": "2038-06-30"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2038-06-30",
+                  "end": "2038-12-19"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2038-12-19",
+                  "end": "2039-02-09"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2039-02-09",
+                  "end": "2039-05-06"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2039-05-06",
+                  "end": "2039-07-06"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2039-07-06",
+                  "end": "2039-12-08"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2039-12-08",
+                  "end": "2040-04-24"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2040-04-24",
+                  "end": "2040-10-05"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2040-10-05",
+                  "end": "2041-03-01"
+                }
+              ]
+            },
+            {
+              "antardasha": "Sun",
+              "start": "2041-03-01",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2041-03-01",
+                  "end": "2041-03-19"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2041-03-19",
+                  "end": "2041-05-10"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2041-05-10",
+                  "end": "2041-05-25"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2041-05-25",
+                  "end": "2041-06-20"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2041-06-20",
+                  "end": "2041-07-09"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2041-07-09",
+                  "end": "2041-08-24"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2041-08-24",
+                  "end": "2041-10-05"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2041-10-05",
+                  "end": "2041-11-23"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2041-11-23",
+                  "end": "2042-01-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Moon",
+              "start": "2042-01-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2042-01-07",
+                  "end": "2042-02-06"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2042-02-06",
+                  "end": "2042-05-03"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2042-05-03",
+                  "end": "2042-05-28"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2042-05-28",
+                  "end": "2042-07-10"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2042-07-10",
+                  "end": "2042-08-10"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2042-08-10",
+                  "end": "2042-10-26"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2042-10-26",
+                  "end": "2043-01-03"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2043-01-03",
+                  "end": "2043-03-25"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2043-03-25",
+                  "end": "2043-06-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mars",
+              "start": "2043-06-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2043-06-07",
+                  "end": "2043-06-28"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2043-06-28",
+                  "end": "2043-08-27"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2043-08-27",
+                  "end": "2043-09-14"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2043-09-14",
+                  "end": "2043-10-14"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2043-10-14",
+                  "end": "2043-11-04"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2043-11-04",
+                  "end": "2043-12-29"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2043-12-29",
+                  "end": "2044-02-15"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2044-02-15",
+                  "end": "2044-04-12"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2044-04-12",
+                  "end": "2044-06-03"
+                }
+              ]
+            },
+            {
+              "antardasha": "Rahu",
+              "start": "2044-06-03",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2044-06-03",
+                  "end": "2044-07-27"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2044-07-27",
+                  "end": "2044-12-29"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2044-12-29",
+                  "end": "2045-02-14"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2045-02-14",
+                  "end": "2045-05-02"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2045-05-02",
+                  "end": "2045-06-25"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2045-06-25",
+                  "end": "2045-11-12"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2045-11-12",
+                  "end": "2046-03-16"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2046-03-16",
+                  "end": "2046-08-11"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2046-08-11",
+                  "end": "2046-12-21"
+                }
+              ]
+            },
+            {
+              "antardasha": "Jupiter",
+              "start": "2046-12-21",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2046-12-21",
+                  "end": "2047-02-07"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2047-02-07",
+                  "end": "2047-06-25"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2047-06-25",
+                  "end": "2047-08-05"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2047-08-05",
+                  "end": "2047-10-13"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2047-10-13",
+                  "end": "2047-11-30"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2047-11-30",
+                  "end": "2048-04-02"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2048-04-02",
+                  "end": "2048-07-21"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2048-07-21",
+                  "end": "2048-11-29"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2048-11-29",
+                  "end": "2049-03-27"
+                }
+              ]
+            },
+            {
+              "antardasha": "Saturn",
+              "start": "2049-03-27",
+              "pratyantardashas": []
+            }
+          ]
+        },
+        {
+          "mahadasha": "Ketu",
+          "start": "2051-12-07",
+          "end": "2058-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Ketu",
+              "start": "2051-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2051-12-07",
+                  "end": "2051-12-15"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2051-12-15",
+                  "end": "2052-01-09"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2052-01-09",
+                  "end": "2052-01-16"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2052-01-16",
+                  "end": "2052-01-29"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2052-01-29",
+                  "end": "2052-02-07"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2052-02-07",
+                  "end": "2052-02-29"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2052-02-29",
+                  "end": "2052-03-20"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2052-03-20",
+                  "end": "2052-04-12"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2052-04-12",
+                  "end": "2052-05-04"
+                }
+              ]
+            },
+            {
+              "antardasha": "Venus",
+              "start": "2052-05-04",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2052-05-04",
+                  "end": "2052-05-28"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2052-05-28",
+                  "end": "2052-08-07"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2052-08-07",
+                  "end": "2052-08-29"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2052-08-29",
+                  "end": "2052-10-03"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2052-10-03",
+                  "end": "2052-10-28"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2052-10-28",
+                  "end": "2052-12-31"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2052-12-31",
+                  "end": "2053-02-26"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2053-02-26",
+                  "end": "2053-05-04"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2053-05-04",
+                  "end": "2053-07-04"
+                }
+              ]
+            },
+            {
+              "antardasha": "Sun",
+              "start": "2053-07-04",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2053-07-04",
+                  "end": "2053-07-11"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2053-07-11",
+                  "end": "2053-08-02"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2053-08-02",
+                  "end": "2053-08-08"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2053-08-08",
+                  "end": "2053-08-19"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2053-08-19",
+                  "end": "2053-08-26"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2053-08-26",
+                  "end": "2053-09-15"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2053-09-15",
+                  "end": "2053-10-02"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2053-10-02",
+                  "end": "2053-10-22"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2053-10-22",
+                  "end": "2053-11-10"
+                }
+              ]
+            },
+            {
+              "antardasha": "Moon",
+              "start": "2053-11-10",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2053-11-10",
+                  "end": "2053-11-22"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2053-11-22",
+                  "end": "2053-12-27"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2053-12-27",
+                  "end": "2054-01-07"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2054-01-07",
+                  "end": "2054-01-24"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2054-01-24",
+                  "end": "2054-02-06"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2054-02-06",
+                  "end": "2054-03-10"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2054-03-10",
+                  "end": "2054-04-07"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2054-04-07",
+                  "end": "2054-05-10"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2054-05-10",
+                  "end": "2054-06-10"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mars",
+              "start": "2054-06-10",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2054-06-10",
+                  "end": "2054-06-18"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2054-06-18",
+                  "end": "2054-07-13"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2054-07-13",
+                  "end": "2054-07-20"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2054-07-20",
+                  "end": "2054-08-02"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2054-08-02",
+                  "end": "2054-08-11"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2054-08-11",
+                  "end": "2054-09-02"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2054-09-02",
+                  "end": "2054-09-22"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2054-09-22",
+                  "end": "2054-10-15"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2054-10-15",
+                  "end": "2054-11-06"
+                }
+              ]
+            },
+            {
+              "antardasha": "Rahu",
+              "start": "2054-11-06",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2054-11-06",
+                  "end": "2054-11-28"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2054-11-28",
+                  "end": "2055-01-31"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2055-01-31",
+                  "end": "2055-02-19"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2055-02-19",
+                  "end": "2055-03-23"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2055-03-23",
+                  "end": "2055-04-14"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2055-04-14",
+                  "end": "2055-06-11"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2055-06-11",
+                  "end": "2055-08-01"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2055-08-01",
+                  "end": "2055-09-30"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2055-09-30",
+                  "end": "2055-11-24"
+                }
+              ]
+            },
+            {
+              "antardasha": "Jupiter",
+              "start": "2055-11-24",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2055-11-24",
+                  "end": "2055-12-13"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2055-12-13",
+                  "end": "2056-02-08"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2056-02-08",
+                  "end": "2056-02-25"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2056-02-25",
+                  "end": "2056-03-25"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2056-03-25",
+                  "end": "2056-04-14"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2056-04-14",
+                  "end": "2056-06-04"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2056-06-04",
+                  "end": "2056-07-19"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2056-07-19",
+                  "end": "2056-09-11"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2056-09-11",
+                  "end": "2056-10-30"
+                }
+              ]
+            },
+            {
+              "antardasha": "Saturn",
+              "start": "2056-10-30",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2056-10-30",
+                  "end": "2056-11-22"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2056-11-22",
+                  "end": "2057-01-29"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2057-01-29",
+                  "end": "2057-02-18"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2057-02-18",
+                  "end": "2057-03-24"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2057-03-24",
+                  "end": "2057-04-16"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2057-04-16",
+                  "end": "2057-06-16"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2057-06-16",
+                  "end": "2057-08-09"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2057-08-09",
+                  "end": "2057-10-12"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2057-10-12",
+                  "end": "2057-12-09"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mercury",
+              "start": "2057-12-09",
+              "pratyantardashas": []
+            }
+          ]
+        },
+        {
+          "mahadasha": "Venus",
+          "start": "2058-12-07",
+          "end": "2078-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Venus",
+              "start": "2058-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2058-12-07",
+                  "end": "2059-02-15"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2059-02-15",
+                  "end": "2059-09-06"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2059-09-06",
+                  "end": "2059-11-06"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2059-11-06",
+                  "end": "2060-02-16"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2060-02-16",
+                  "end": "2060-04-27"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2060-04-27",
+                  "end": "2060-10-26"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2060-10-26",
+                  "end": "2061-04-06"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2061-04-06",
+                  "end": "2061-10-16"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2061-10-16",
+                  "end": "2062-04-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Sun",
+              "start": "2062-04-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2062-04-07",
+                  "end": "2062-04-28"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2062-04-28",
+                  "end": "2062-06-28"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2062-06-28",
+                  "end": "2062-07-16"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2062-07-16",
+                  "end": "2062-08-15"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2062-08-15",
+                  "end": "2062-09-06"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2062-09-06",
+                  "end": "2062-10-30"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2062-10-30",
+                  "end": "2062-12-18"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2062-12-18",
+                  "end": "2063-02-14"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2063-02-14",
+                  "end": "2063-04-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Moon",
+              "start": "2063-04-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2063-04-07",
+                  "end": "2063-05-12"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2063-05-12",
+                  "end": "2063-08-22"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2063-08-22",
+                  "end": "2063-09-21"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2063-09-21",
+                  "end": "2063-11-11"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2063-11-11",
+                  "end": "2063-12-17"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2063-12-17",
+                  "end": "2064-03-17"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2064-03-17",
+                  "end": "2064-06-07"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2064-06-07",
+                  "end": "2064-09-11"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2064-09-11",
+                  "end": "2064-12-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mars",
+              "start": "2064-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2064-12-07",
+                  "end": "2064-12-31"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2064-12-31",
+                  "end": "2065-03-13"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2065-03-13",
+                  "end": "2065-04-03"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2065-04-03",
+                  "end": "2065-05-09"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2065-05-09",
+                  "end": "2065-06-02"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2065-06-02",
+                  "end": "2065-08-05"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2065-08-05",
+                  "end": "2065-10-01"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2065-10-01",
+                  "end": "2065-12-08"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2065-12-08",
+                  "end": "2066-02-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Rahu",
+              "start": "2066-02-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2066-02-07",
+                  "end": "2066-04-11"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2066-04-11",
+                  "end": "2066-10-11"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2066-10-11",
+                  "end": "2066-12-05"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2066-12-05",
+                  "end": "2067-03-06"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2067-03-06",
+                  "end": "2067-05-09"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2067-05-09",
+                  "end": "2067-10-21"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2067-10-21",
+                  "end": "2068-03-15"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2068-03-15",
+                  "end": "2068-09-04"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2068-09-04",
+                  "end": "2069-02-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Jupiter",
+              "start": "2069-02-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2069-02-07",
+                  "end": "2069-04-04"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2069-04-04",
+                  "end": "2069-09-13"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2069-09-13",
+                  "end": "2069-11-01"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2069-11-01",
+                  "end": "2070-01-21"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2070-01-21",
+                  "end": "2070-03-19"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2070-03-19",
+                  "end": "2070-08-11"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2070-08-11",
+                  "end": "2070-12-19"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2070-12-19",
+                  "end": "2071-05-22"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2071-05-22",
+                  "end": "2071-10-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Saturn",
+              "start": "2071-10-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2071-10-07",
+                  "end": "2071-12-13"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2071-12-13",
+                  "end": "2072-06-23"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2072-06-23",
+                  "end": "2072-08-20"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2072-08-20",
+                  "end": "2072-11-24"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2072-11-24",
+                  "end": "2073-01-31"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2073-01-31",
+                  "end": "2073-07-23"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2073-07-23",
+                  "end": "2073-12-24"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2073-12-24",
+                  "end": "2074-06-26"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2074-06-26",
+                  "end": "2074-12-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mercury",
+              "start": "2074-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2074-12-07",
+                  "end": "2075-02-05"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2075-02-05",
+                  "end": "2075-07-27"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2075-07-27",
+                  "end": "2075-09-17"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2075-09-17",
+                  "end": "2075-12-12"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2075-12-12",
+                  "end": "2076-02-11"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2076-02-11",
+                  "end": "2076-07-15"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2076-07-15",
+                  "end": "2076-11-30"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2076-11-30",
+                  "end": "2077-05-13"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2077-05-13",
+                  "end": "2077-10-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Ketu",
+              "start": "2077-10-07",
+              "pratyantardashas": []
+            }
+          ]
+        },
+        {
+          "mahadasha": "Sun",
+          "start": "2078-12-07",
+          "end": "2084-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Sun",
+              "start": "2078-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2078-12-07",
+                  "end": "2078-12-13"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2078-12-13",
+                  "end": "2078-12-31"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2078-12-31",
+                  "end": "2079-01-05"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2079-01-05",
+                  "end": "2079-01-14"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2079-01-14",
+                  "end": "2079-01-21"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2079-01-21",
+                  "end": "2079-02-06"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2079-02-06",
+                  "end": "2079-02-20"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2079-02-20",
+                  "end": "2079-03-09"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2079-03-09",
+                  "end": "2079-03-25"
+                }
+              ]
+            },
+            {
+              "antardasha": "Moon",
+              "start": "2079-03-25",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2079-03-25",
+                  "end": "2079-04-04"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2079-04-04",
+                  "end": "2079-05-05"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2079-05-05",
+                  "end": "2079-05-14"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2079-05-14",
+                  "end": "2079-05-29"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2079-05-29",
+                  "end": "2079-06-09"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2079-06-09",
+                  "end": "2079-07-07"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2079-07-07",
+                  "end": "2079-07-31"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2079-07-31",
+                  "end": "2079-08-29"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2079-08-29",
+                  "end": "2079-09-25"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mars",
+              "start": "2079-09-25",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2079-09-25",
+                  "end": "2079-10-02"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2079-10-02",
+                  "end": "2079-10-23"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2079-10-23",
+                  "end": "2079-10-30"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2079-10-30",
+                  "end": "2079-11-09"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2079-11-09",
+                  "end": "2079-11-17"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2079-11-17",
+                  "end": "2079-12-06"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2079-12-06",
+                  "end": "2079-12-23"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2079-12-23",
+                  "end": "2080-01-12"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2080-01-12",
+                  "end": "2080-01-31"
+                }
+              ]
+            },
+            {
+              "antardasha": "Rahu",
+              "start": "2080-01-31",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2080-01-31",
+                  "end": "2080-02-19"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2080-02-19",
+                  "end": "2080-04-14"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2080-04-14",
+                  "end": "2080-04-30"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2080-04-30",
+                  "end": "2080-05-27"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2080-05-27",
+                  "end": "2080-06-16"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2080-06-16",
+                  "end": "2080-08-04"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2080-08-04",
+                  "end": "2080-09-17"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2080-09-17",
+                  "end": "2080-11-08"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2080-11-08",
+                  "end": "2080-12-25"
+                }
+              ]
+            },
+            {
+              "antardasha": "Jupiter",
+              "start": "2080-12-25",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2080-12-25",
+                  "end": "2081-01-11"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2081-01-11",
+                  "end": "2081-02-28"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2081-02-28",
+                  "end": "2081-03-15"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2081-03-15",
+                  "end": "2081-04-08"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2081-04-08",
+                  "end": "2081-04-25"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2081-04-25",
+                  "end": "2081-06-08"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2081-06-08",
+                  "end": "2081-07-17"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2081-07-17",
+                  "end": "2081-09-01"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2081-09-01",
+                  "end": "2081-10-13"
+                }
+              ]
+            },
+            {
+              "antardasha": "Saturn",
+              "start": "2081-10-13",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2081-10-13",
+                  "end": "2081-11-02"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2081-11-02",
+                  "end": "2081-12-30"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2081-12-30",
+                  "end": "2082-01-16"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2082-01-16",
+                  "end": "2082-02-14"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2082-02-14",
+                  "end": "2082-03-06"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2082-03-06",
+                  "end": "2082-04-27"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2082-04-27",
+                  "end": "2082-06-12"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2082-06-12",
+                  "end": "2082-08-06"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2082-08-06",
+                  "end": "2082-09-25"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mercury",
+              "start": "2082-09-25",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2082-09-25",
+                  "end": "2082-10-13"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2082-10-13",
+                  "end": "2082-12-03"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2082-12-03",
+                  "end": "2082-12-18"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2082-12-18",
+                  "end": "2083-01-13"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2083-01-13",
+                  "end": "2083-01-31"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2083-01-31",
+                  "end": "2083-03-19"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2083-03-19",
+                  "end": "2083-04-29"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2083-04-29",
+                  "end": "2083-06-17"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2083-06-17",
+                  "end": "2083-07-31"
+                }
+              ]
+            },
+            {
+              "antardasha": "Ketu",
+              "start": "2083-07-31",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2083-07-31",
+                  "end": "2083-08-07"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2083-08-07",
+                  "end": "2083-08-29"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2083-08-29",
+                  "end": "2083-09-04"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2083-09-04",
+                  "end": "2083-09-15"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2083-09-15",
+                  "end": "2083-09-22"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2083-09-22",
+                  "end": "2083-10-12"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2083-10-12",
+                  "end": "2083-10-29"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2083-10-29",
+                  "end": "2083-11-18"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2083-11-18",
+                  "end": "2083-12-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Venus",
+              "start": "2083-12-07",
+              "pratyantardashas": []
+            }
+          ]
+        },
+        {
+          "mahadasha": "Moon",
+          "start": "2084-12-07",
+          "end": "2094-12-07",
+          "antardashas": [
+            {
+              "antardasha": "Moon",
+              "start": "2084-12-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2084-12-07",
+                  "end": "2084-12-24"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2084-12-24",
+                  "end": "2085-02-13"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2085-02-13",
+                  "end": "2085-02-28"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2085-02-28",
+                  "end": "2085-03-25"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2085-03-25",
+                  "end": "2085-04-12"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2085-04-12",
+                  "end": "2085-05-28"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2085-05-28",
+                  "end": "2085-07-07"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2085-07-07",
+                  "end": "2085-08-24"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2085-08-24",
+                  "end": "2085-10-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mars",
+              "start": "2085-10-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2085-10-07",
+                  "end": "2085-10-19"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2085-10-19",
+                  "end": "2085-11-23"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2085-11-23",
+                  "end": "2085-12-04"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2085-12-04",
+                  "end": "2085-12-21"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2085-12-21",
+                  "end": "2086-01-03"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2086-01-03",
+                  "end": "2086-02-04"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2086-02-04",
+                  "end": "2086-03-04"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2086-03-04",
+                  "end": "2086-04-06"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2086-04-06",
+                  "end": "2086-05-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Rahu",
+              "start": "2086-05-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2086-05-07",
+                  "end": "2086-06-08"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2086-06-08",
+                  "end": "2086-09-07"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2086-09-07",
+                  "end": "2086-10-04"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2086-10-04",
+                  "end": "2086-11-19"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2086-11-19",
+                  "end": "2086-12-21"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2086-12-21",
+                  "end": "2087-03-14"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2087-03-14",
+                  "end": "2087-05-26"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2087-05-26",
+                  "end": "2087-08-21"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2087-08-21",
+                  "end": "2087-11-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Jupiter",
+              "start": "2087-11-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2087-11-07",
+                  "end": "2087-12-05"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2087-12-05",
+                  "end": "2088-02-24"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2088-02-24",
+                  "end": "2088-03-19"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2088-03-19",
+                  "end": "2088-04-29"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2088-04-29",
+                  "end": "2088-05-27"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2088-05-27",
+                  "end": "2088-08-08"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2088-08-08",
+                  "end": "2088-10-12"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2088-10-12",
+                  "end": "2088-12-28"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2088-12-28",
+                  "end": "2089-03-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Saturn",
+              "start": "2089-03-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2089-03-07",
+                  "end": "2089-04-09"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2089-04-09",
+                  "end": "2089-07-15"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2089-07-15",
+                  "end": "2089-08-13"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2089-08-13",
+                  "end": "2089-09-30"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2089-09-30",
+                  "end": "2089-11-03"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2089-11-03",
+                  "end": "2090-01-29"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2090-01-29",
+                  "end": "2090-04-16"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2090-04-16",
+                  "end": "2090-07-16"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2090-07-16",
+                  "end": "2090-10-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Mercury",
+              "start": "2090-10-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2090-10-07",
+                  "end": "2090-11-06"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2090-11-06",
+                  "end": "2091-01-31"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2091-01-31",
+                  "end": "2091-02-26"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2091-02-26",
+                  "end": "2091-04-10"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2091-04-10",
+                  "end": "2091-05-10"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2091-05-10",
+                  "end": "2091-07-26"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2091-07-26",
+                  "end": "2091-10-03"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2091-10-03",
+                  "end": "2091-12-24"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2091-12-24",
+                  "end": "2092-03-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Ketu",
+              "start": "2092-03-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2092-03-07",
+                  "end": "2092-03-19"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2092-03-19",
+                  "end": "2092-04-24"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2092-04-24",
+                  "end": "2092-05-04"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2092-05-04",
+                  "end": "2092-05-22"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2092-05-22",
+                  "end": "2092-06-04"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2092-06-04",
+                  "end": "2092-07-06"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2092-07-06",
+                  "end": "2092-08-03"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2092-08-03",
+                  "end": "2092-09-06"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2092-09-06",
+                  "end": "2092-10-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Venus",
+              "start": "2092-10-07",
+              "pratyantardashas": [
+                {
+                  "pratyantardasha": "Ketu",
+                  "start": "2092-10-07",
+                  "end": "2092-11-11"
+                },
+                {
+                  "pratyantardasha": "Venus",
+                  "start": "2092-11-11",
+                  "end": "2093-02-20"
+                },
+                {
+                  "pratyantardasha": "Sun",
+                  "start": "2093-02-20",
+                  "end": "2093-03-23"
+                },
+                {
+                  "pratyantardasha": "Moon",
+                  "start": "2093-03-23",
+                  "end": "2093-05-12"
+                },
+                {
+                  "pratyantardasha": "Mars",
+                  "start": "2093-05-12",
+                  "end": "2093-06-17"
+                },
+                {
+                  "pratyantardasha": "Rahu",
+                  "start": "2093-06-17",
+                  "end": "2093-09-16"
+                },
+                {
+                  "pratyantardasha": "Jupiter",
+                  "start": "2093-09-16",
+                  "end": "2093-12-06"
+                },
+                {
+                  "pratyantardasha": "Saturn",
+                  "start": "2093-12-06",
+                  "end": "2094-03-12"
+                },
+                {
+                  "pratyantardasha": "Mercury",
+                  "start": "2094-03-12",
+                  "end": "2094-06-07"
+                }
+              ]
+            },
+            {
+              "antardasha": "Sun",
+              "start": "2094-06-07",
+              "pratyantardashas": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1311 @@
+{
+  "charts": {
+    "sidereal": {
+      "chart_type": "Sidereal",
+      "house_system": "Whole Sign",
+      "metadata": {
+        "name": "Kasem",
+        "birth_date": "1980-12-03",
+        "birth_time": "11:37",
+        "universal_time": "1980-12-03T16:37:00Z",
+        "local_sidereal_time": "16:31:17",
+        "ayanamsa": "23\u00b035\u2019 (Lahiri)",
+        "house_system": "Whole Sign",
+        "location": {
+          "latitude": "40\u00b044'N",
+          "longitude": "74\u00b05'W",
+          "city": "Jersey City",
+          "state": "NJ",
+          "country": "United States"
+        },
+        "timezone": "EST"
+      },
+      "planets": {
+        "Sun": {
+          "sign": "Scorpio",
+          "degree": 18.08,
+          "nakshatra": "Jyeshtha",
+          "pada": 1,
+          "nakshatra_lord": "Mercury",
+          "pada_lord": "Jupiter",
+          "deity": "Indra",
+          "purpose": "A"
+        },
+        "Moon": {
+          "sign": "Libra",
+          "degree": 4.73,
+          "nakshatra": "Chitra",
+          "pada": 4,
+          "nakshatra_lord": "Mars",
+          "pada_lord": "Mars",
+          "deity": "Tvastr",
+          "purpose": "K"
+        },
+        "Mercury": {
+          "sign": "Scorpio",
+          "degree": 3.18,
+          "nakshatra": "Vishakha",
+          "pada": 4,
+          "nakshatra_lord": "Jupiter",
+          "pada_lord": "Moon",
+          "deity": "Indra-Agni",
+          "purpose": "D"
+        },
+        "Venus": {
+          "sign": "Libra",
+          "degree": 18.3,
+          "nakshatra": "Swati",
+          "pada": 4,
+          "nakshatra_lord": "Rahu",
+          "pada_lord": "Jupiter",
+          "deity": "Vayu",
+          "purpose": "A"
+        },
+        "Mars": {
+          "sign": "Sagittarius",
+          "degree": 15.25,
+          "nakshatra": "Purva Ashadha",
+          "pada": 1,
+          "nakshatra_lord": "Venus",
+          "pada_lord": "Sun",
+          "deity": "Apas",
+          "purpose": "M"
+        },
+        "Jupiter": {
+          "sign": "Virgo",
+          "degree": 12.82,
+          "nakshatra": "Hasta",
+          "pada": 1,
+          "nakshatra_lord": "Moon",
+          "pada_lord": "Mars",
+          "deity": "Savitr",
+          "purpose": "M"
+        },
+        "Saturn": {
+          "sign": "Virgo",
+          "degree": 14.35,
+          "nakshatra": "Hasta",
+          "pada": 2,
+          "nakshatra_lord": "Moon",
+          "pada_lord": "Venus",
+          "deity": "Savitr",
+          "purpose": "M"
+        },
+        "Uranus": {
+          "sign": "Scorpio",
+          "degree": 3.23,
+          "nakshatra": "Vishakha",
+          "pada": 4,
+          "nakshatra_lord": "Jupiter",
+          "pada_lord": "Moon",
+          "deity": "Indra-Agni",
+          "purpose": "D"
+        },
+        "Neptune": {
+          "sign": "Scorpio",
+          "degree": 28.4,
+          "nakshatra": "Jyeshtha",
+          "pada": 4,
+          "nakshatra_lord": "Mercury",
+          "pada_lord": "Jupiter",
+          "deity": "Indra",
+          "purpose": "A"
+        },
+        "Pluto": {
+          "sign": "Virgo",
+          "degree": 29.92,
+          "nakshatra": "Chitra",
+          "pada": 2,
+          "nakshatra_lord": "Mars",
+          "pada_lord": "Neptune",
+          "deity": "Tvastr",
+          "purpose": "K"
+        },
+        "Rahu": {
+          "sign": "Cancer",
+          "degree": 19.53,
+          "retrograde": true,
+          "nakshatra": "Ashlesha",
+          "pada": 1,
+          "nakshatra_lord": "Mercury",
+          "pada_lord": "Jupiter",
+          "deity": "Nagas",
+          "purpose": "D"
+        },
+        "Lilith": {
+          "sign": "Virgo",
+          "degree": 28.85,
+          "nakshatra": "Chitra",
+          "pada": 2,
+          "nakshatra_lord": "Mars",
+          "pada_lord": "Neptune",
+          "deity": "Tvastr",
+          "purpose": "K"
+        },
+        "Chiron": {
+          "sign": "Aries",
+          "degree": 21.0,
+          "retrograde": true,
+          "nakshatra": "Bharani",
+          "pada": 3,
+          "nakshatra_lord": "Venus",
+          "pada_lord": "Venus",
+          "deity": "Yama",
+          "purpose": "A"
+        },
+        "Fortune": {
+          "sign": "Sagittarius",
+          "degree": 16.38,
+          "nakshatra": null,
+          "pada": null,
+          "nakshatra_lord": null,
+          "pada_lord": null,
+          "deity": null,
+          "purpose": null
+        },
+        "Vertex": {
+          "sign": "Leo",
+          "degree": 20.21,
+          "nakshatra": null,
+          "pada": null,
+          "nakshatra_lord": null,
+          "pada_lord": null,
+          "deity": null,
+          "purpose": null
+        },
+        "ASC": {
+          "sign": "Capricorn",
+          "degree": 29.73,
+          "nakshatra": "Dhanishtha",
+          "pada": 2,
+          "nakshatra_lord": "Mars",
+          "pada_lord": "Neptune",
+          "deity": "Ashta-Vasus",
+          "purpose": "A"
+        },
+        "IC": {
+          "sign": "Taurus",
+          "degree": 15.54,
+          "nakshatra": "Rohini",
+          "pada": 2,
+          "nakshatra_lord": "Moon",
+          "pada_lord": "Venus",
+          "deity": "Brahma",
+          "purpose": "M"
+        },
+        "DESC": {
+          "sign": "Cancer",
+          "degree": 16.4,
+          "nakshatra": "Ashlesha",
+          "pada": 4,
+          "nakshatra_lord": "Mercury",
+          "pada_lord": "Jupiter",
+          "deity": "Brahma",
+          "purpose": "M"
+        },
+        "MC": {
+          "sign": "Scorpio",
+          "degree": 15.9,
+          "nakshatra": "Anuradha",
+          "pada": 4,
+          "nakshatra_lord": "Saturn",
+          "pada_lord": "Mars",
+          "deity": "Mitra",
+          "purpose": "D"
+        }
+      },
+      "planet_aspects": [
+        {
+          "planet_1": "Sun",
+          "planet_2": "Jupiter",
+          "aspect": "Sextile",
+          "orb": 5.25,
+          "applying": false
+        },
+        {
+          "planet_1": "Sun",
+          "planet_2": "Saturn",
+          "aspect": "Sextile",
+          "orb": 3.72,
+          "applying": false
+        },
+        {
+          "planet_1": "Moon",
+          "planet_2": "Pluto",
+          "aspect": "Conjunction",
+          "orb": 4.82,
+          "applying": false
+        },
+        {
+          "planet_1": "Mercury",
+          "planet_2": "Uranus",
+          "aspect": "Conjunction",
+          "orb": 0.03,
+          "applying": true
+        },
+        {
+          "planet_1": "Venus",
+          "planet_2": "Mars",
+          "aspect": "Sextile",
+          "orb": 3.03,
+          "applying": false
+        },
+        {
+          "planet_1": "Mars",
+          "planet_2": "Jupiter",
+          "aspect": "Square",
+          "orb": 2.43,
+          "applying": false
+        },
+        {
+          "planet_1": "Mars",
+          "planet_2": "Saturn",
+          "aspect": "Square",
+          "orb": 0.9,
+          "applying": false
+        },
+        {
+          "planet_1": "Jupiter",
+          "planet_2": "Saturn",
+          "aspect": "Conjunction",
+          "orb": 1.52,
+          "applying": true
+        },
+        {
+          "planet_1": "Neptune",
+          "planet_2": "Pluto",
+          "aspect": "Sextile",
+          "orb": 1.5,
+          "applying": true
+        }
+      ],
+      "houses": {
+        "1": {
+          "sign": "Aquarius",
+          "degree": 0
+        },
+        "2": {
+          "sign": "Pisces",
+          "degree": 0
+        },
+        "3": {
+          "sign": "Aries",
+          "degree": 0
+        },
+        "4": {
+          "sign": "Taurus",
+          "degree": 0
+        },
+        "5": {
+          "sign": "Gemini",
+          "degree": 0
+        },
+        "6": {
+          "sign": "Cancer",
+          "degree": 0
+        },
+        "7": {
+          "sign": "Leo",
+          "degree": 0
+        },
+        "8": {
+          "sign": "Virgo",
+          "degree": 0
+        },
+        "9": {
+          "sign": "Libra",
+          "degree": 0
+        },
+        "10": {
+          "sign": "Scorpio",
+          "degree": 0
+        },
+        "11": {
+          "sign": "Sagittarius",
+          "degree": 0
+        },
+        "12": {
+          "sign": "Capricorn",
+          "degree": 0
+        }
+      },
+      "aspects": [
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Sun",
+          "aspect": "Quintile",
+          "orb": 0.35,
+          "applying": true
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Moon",
+          "aspect": "Trine",
+          "orb": 4.98,
+          "applying": true
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Mercury",
+          "aspect": "Square",
+          "orb": 3.45,
+          "applying": true
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Mars",
+          "aspect": "Octile",
+          "orb": 0.52,
+          "applying": true
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Jupiter",
+          "aspect": "Tri-Octile",
+          "orb": 1.9,
+          "applying": false
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Saturn",
+          "aspect": "Tri-Octile",
+          "orb": 0.37,
+          "applying": false
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Uranus",
+          "aspect": "Square",
+          "orb": 3.48,
+          "applying": true
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Neptune",
+          "aspect": "Sextile",
+          "orb": 1.33,
+          "applying": false
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Pluto",
+          "aspect": "Trine",
+          "orb": 0.17,
+          "applying": true
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Lilith",
+          "aspect": "Trine",
+          "orb": 3.7,
+          "applying": true
+        },
+        {
+          "planet_1": "Ascendant",
+          "planet_2": "Lilith",
+          "aspect": "Trine",
+          "orb": 0.88,
+          "applying": false
+        },
+        {
+          "planet_1": "MC",
+          "planet_2": "Sun",
+          "aspect": "Conjunction",
+          "orb": 2.18,
+          "applying": true
+        },
+        {
+          "planet_1": "MC",
+          "planet_2": "Jupiter",
+          "aspect": "Sextile",
+          "orb": 3.07,
+          "applying": false
+        },
+        {
+          "planet_1": "MC",
+          "planet_2": "Saturn",
+          "aspect": "Sextile",
+          "orb": 1.53,
+          "applying": false
+        },
+        {
+          "planet_1": "MC",
+          "planet_2": "North Node",
+          "aspect": "Trine",
+          "orb": 3.62,
+          "applying": true
+        },
+        {
+          "planet_1": "North Node",
+          "planet_2": "Sun",
+          "aspect": "Trine",
+          "orb": 1.43,
+          "applying": true
+        },
+        {
+          "planet_1": "North Node",
+          "planet_2": "Venus",
+          "aspect": "Square",
+          "orb": 1.22,
+          "applying": true
+        },
+        {
+          "planet_1": "North Node",
+          "planet_2": "Chiron",
+          "aspect": "Square",
+          "orb": 1.47,
+          "applying": false
+        },
+        {
+          "planet_1": "Lilith",
+          "planet_2": "Moon",
+          "aspect": "Conjunction",
+          "orb": 5.88,
+          "applying": false
+        },
+        {
+          "planet_1": "Lilith",
+          "planet_2": "Neptune",
+          "aspect": "Sextile",
+          "orb": 0.43,
+          "applying": false
+        },
+        {
+          "planet_1": "Lilith",
+          "planet_2": "Pluto",
+          "aspect": "Conjunction",
+          "orb": 1.07,
+          "applying": true
+        },
+        {
+          "planet_1": "Chiron",
+          "planet_2": "Venus",
+          "aspect": "Opposition",
+          "orb": 2.68,
+          "applying": true
+        },
+        {
+          "planet_1": "Chiron",
+          "planet_2": "Mars",
+          "aspect": "Trine",
+          "orb": 5.73,
+          "applying": true
+        }
+      ],
+      "panchanga": {
+        "vara": {
+          "name": "Wednesday",
+          "ruler": "Mercury",
+          "paksha": "Krishna"
+        },
+        "nakshatra": {
+          "name": "Chitra",
+          "lord": "Mars",
+          "pada": 4,
+          "percent_remaining": 14.46
+        },
+        "tithi": {
+          "name": "Krishna Dwadasi",
+          "lord": "Mercury",
+          "percent_remaining": 61.31
+        },
+        "karana": {
+          "name": "Kaulava",
+          "lord": "Mars",
+          "deity": "Mitra",
+          "percent_remaining": 22.63
+        },
+        "yoga": {
+          "name": "Saubhagya",
+          "lord": "Venus",
+          "deity": "Brahma",
+          "percent_remaining": 3.75
+        },
+        "hora": {
+          "ruler": "Sun",
+          "sunrise": "07:03",
+          "sunset": "16:29",
+          "hour_number": 6
+        }
+      },
+      "divisional_charts": {
+        "D1": {
+          "ASC": "Cap 29\u00b0",
+          "SU": "Sco 18\u00b0",
+          "MO": "Lib 04\u00b0",
+          "ME": "Sco 03\u00b0",
+          "VE": "Lib 18\u00b0",
+          "MA": "Sag 15\u00b0",
+          "JU": "Vir 12\u00b0",
+          "SA": "Vir 14\u00b0",
+          "UR": "Sco 03\u00b0",
+          "NE": "Sco 28\u00b0",
+          "PL": "Vir 29\u00b0",
+          "RA": "Can 19\u00b0",
+          "KE": "Cap 19\u00b0"
+        },
+        "D2": {
+          "ASC": "Leo 29\u00b0",
+          "SU": "Leo 06\u00b0",
+          "MO": "Leo 09\u00b0",
+          "ME": "Can 06\u00b0",
+          "VE": "Can 06\u00b0",
+          "MA": "Can 00\u00b0",
+          "JU": "Can 25\u00b0",
+          "SA": "Can 28\u00b0",
+          "UR": "Can 06\u00b0",
+          "NE": "Leo 26\u00b0",
+          "PL": "Leo 29\u00b0",
+          "RA": "Leo 09\u00b0",
+          "KE": "Leo 09\u00b0"
+        },
+        "D3": {
+          "ASC": "Vir 29\u00b0",
+          "SU": "Pis 24\u00b0",
+          "MO": "Lib 14\u00b0",
+          "ME": "Sco 09\u00b0",
+          "VE": "Aqu 24\u00b0",
+          "MA": "Ari 15\u00b0",
+          "JU": "Cap 08\u00b0",
+          "SA": "Cap 13\u00b0",
+          "UR": "Sco 09\u00b0",
+          "NE": "Can 25\u00b0",
+          "PL": "Tau 29\u00b0",
+          "RA": "Sco 28\u00b0",
+          "KE": "Tau 28\u00b0"
+        },
+        "D4": {
+          "ASC": "Lib 28\u00b0",
+          "SU": "Tau 12\u00b0",
+          "MO": "Lib 18\u00b0",
+          "ME": "Sco 12\u00b0",
+          "VE": "Ari 13\u00b0",
+          "MA": "Gem 01\u00b0",
+          "JU": "Sag 21\u00b0",
+          "SA": "Sag 27\u00b0",
+          "UR": "Sco 12\u00b0",
+          "NE": "Leo 23\u00b0",
+          "PL": "Gem 29\u00b0",
+          "RA": "Cap 18\u00b0",
+          "KE": "Can 18\u00b0"
+        },
+        "D5": {
+          "ASC": "Sco 28\u00b0",
+          "SU": "Cap 00\u00b0",
+          "MO": "Ari 23\u00b0",
+          "ME": "Tau 15\u00b0",
+          "VE": "Gem 01\u00b0",
+          "MA": "Sag 16\u00b0",
+          "JU": "Pis 04\u00b0",
+          "SA": "Pis 11\u00b0",
+          "UR": "Tau 16\u00b0",
+          "NE": "Sco 22\u00b0",
+          "PL": "Sco 29\u00b0",
+          "RA": "Cap 07\u00b0",
+          "KE": "Cap 07\u00b0"
+        },
+        "D6": {
+          "ASC": "Pis 28\u00b0",
+          "SU": "Cap 18\u00b0",
+          "MO": "Ari 28\u00b0",
+          "ME": "Lib 19\u00b0",
+          "VE": "Can 19\u00b0",
+          "MA": "Can 01\u00b0",
+          "JU": "Sag 16\u00b0",
+          "SA": "Sag 26\u00b0",
+          "UR": "Lib 19\u00b0",
+          "NE": "Pis 20\u00b0",
+          "PL": "Pis 29\u00b0",
+          "RA": "Cap 27\u00b0",
+          "KE": "Cap 27\u00b0"
+        },
+        "D7": {
+          "ASC": "Cap 28\u00b0",
+          "SU": "Vir 06\u00b0",
+          "MO": "Sco 03\u00b0",
+          "ME": "Tau 22\u00b0",
+          "VE": "Aqu 08\u00b0",
+          "MA": "Pis 16\u00b0",
+          "JU": "Tau 29\u00b0",
+          "SA": "Gem 10\u00b0",
+          "UR": "Tau 22\u00b0",
+          "NE": "Sco 18\u00b0",
+          "PL": "Vir 29\u00b0",
+          "RA": "Tau 16\u00b0",
+          "KE": "Sco 16\u00b0"
+        },
+        "D8": {
+          "ASC": "Sco 27\u00b0",
+          "SU": "Ari 24\u00b0",
+          "MO": "Tau 07\u00b0",
+          "ME": "Sag 25\u00b0",
+          "VE": "Leo 26\u00b0",
+          "MA": "Sag 02\u00b0",
+          "JU": "Sco 12\u00b0",
+          "SA": "Sco 24\u00b0",
+          "UR": "Sag 25\u00b0",
+          "NE": "Can 17\u00b0",
+          "PL": "Pis 29\u00b0",
+          "RA": "Vir 06\u00b0",
+          "KE": "Vir 06\u00b0"
+        },
+        "D9": {
+          "ASC": "Vir 27\u00b0",
+          "SU": "Sag 12\u00b0",
+          "MO": "Sco 12\u00b0",
+          "ME": "Can 28\u00b0",
+          "VE": "Pis 14\u00b0",
+          "MA": "Leo 17\u00b0",
+          "JU": "Ari 25\u00b0",
+          "SA": "Tau 09\u00b0",
+          "UR": "Can 29\u00b0",
+          "NE": "Pis 15\u00b0",
+          "PL": "Vir 29\u00b0",
+          "RA": "Sag 25\u00b0",
+          "KE": "Gem 25\u00b0"
+        },
+        "D10": {
+          "ASC": "Gem 27\u00b0",
+          "SU": "Cap 00\u00b0",
+          "MO": "Sco 17\u00b0",
+          "ME": "Leo 01\u00b0",
+          "VE": "Ari 03\u00b0",
+          "MA": "Tau 02\u00b0",
+          "JU": "Vir 08\u00b0",
+          "SA": "Vir 23\u00b0",
+          "UR": "Leo 02\u00b0",
+          "NE": "Ari 14\u00b0",
+          "PL": "Aqu 29\u00b0",
+          "RA": "Vir 15\u00b0",
+          "KE": "Pis 15\u00b0"
+        },
+        "D11": {
+          "ASC": "Tau 27\u00b0",
+          "SU": "Pis 19\u00b0",
+          "MO": "Sco 22\u00b0",
+          "ME": "Lib 05\u00b0",
+          "VE": "Ari 21\u00b0",
+          "MA": "Cap 17\u00b0",
+          "JU": "Pis 21\u00b0",
+          "SA": "Ari 08\u00b0",
+          "UR": "Lib 05\u00b0",
+          "NE": "Can 12\u00b0",
+          "PL": "Vir 29\u00b0",
+          "RA": "Leo 04\u00b0",
+          "KE": "Aqu 04\u00b0"
+        },
+        "D12": {
+          "ASC": "Sag 26\u00b0",
+          "SU": "Gem 07\u00b0",
+          "MO": "Sco 26\u00b0",
+          "ME": "Sag 08\u00b0",
+          "VE": "Tau 09\u00b0",
+          "MA": "Gem 03\u00b0",
+          "JU": "Aqu 03\u00b0",
+          "SA": "Aqu 22\u00b0",
+          "UR": "Sag 08\u00b0",
+          "NE": "Lib 10\u00b0",
+          "PL": "Leo 29\u00b0",
+          "RA": "Aqu 24\u00b0",
+          "KE": "Leo 24\u00b0"
+        },
+        "D16": {
+          "ASC": "Can 25\u00b0",
+          "SU": "Tau 19\u00b0",
+          "MO": "Gem 15\u00b0",
+          "ME": "Vir 21\u00b0",
+          "VE": "Cap 22\u00b0",
+          "MA": "Leo 04\u00b0",
+          "JU": "Gem 25\u00b0",
+          "SA": "Can 19\u00b0",
+          "UR": "Vir 21\u00b0",
+          "NE": "Sco 04\u00b0",
+          "PL": "Pis 28\u00b0",
+          "RA": "Aqu 12\u00b0",
+          "KE": "Aqu 12\u00b0"
+        },
+        "D20": {
+          "ASC": "Sco 24\u00b0",
+          "SU": "Sag 01\u00b0",
+          "MO": "Can 04\u00b0",
+          "ME": "Aqu 03\u00b0",
+          "VE": "Ari 06\u00b0",
+          "MA": "Gem 05\u00b0",
+          "JU": "Ari 16\u00b0",
+          "SA": "Tau 17\u00b0",
+          "UR": "Aqu 04\u00b0",
+          "NE": "Gem 28\u00b0",
+          "PL": "Pis 28\u00b0",
+          "RA": "Tau 00\u00b0",
+          "KE": "Tau 00\u00b0"
+        },
+        "D24": {
+          "ASC": "Gem 23\u00b0",
+          "SU": "Vir 14\u00b0",
+          "MO": "Sco 23\u00b0",
+          "ME": "Vir 16\u00b0",
+          "VE": "Lib 19\u00b0",
+          "MA": "Leo 06\u00b0",
+          "JU": "Tau 07\u00b0",
+          "SA": "Gem 14\u00b0",
+          "UR": "Vir 17\u00b0",
+          "NE": "Tau 21\u00b0",
+          "PL": "Gem 28\u00b0",
+          "RA": "Lib 18\u00b0",
+          "KE": "Lib 18\u00b0"
+        },
+        "D27": {
+          "ASC": "Vir 23\u00b0",
+          "SU": "Tau 08\u00b0",
+          "MO": "Aqu 07\u00b0",
+          "ME": "Pis 26\u00b0",
+          "VE": "Aqu 14\u00b0",
+          "MA": "Tau 22\u00b0",
+          "JU": "Gem 16\u00b0",
+          "SA": "Can 27\u00b0",
+          "UR": "Pis 27\u00b0",
+          "NE": "Aqu 16\u00b0",
+          "PL": "Vir 27\u00b0",
+          "RA": "Gem 17\u00b0",
+          "KE": "Sag 17\u00b0"
+        },
+        "D30": {
+          "ASC": "Sco 22\u00b0",
+          "SU": "Pis 02\u00b0",
+          "MO": "Ari 22\u00b0",
+          "ME": "Tau 05\u00b0",
+          "VE": "Gem 09\u00b0",
+          "MA": "Sag 07\u00b0",
+          "JU": "Pis 24\u00b0",
+          "SA": "Pis 10\u00b0",
+          "UR": "Tau 07\u00b0",
+          "NE": "Sco 12\u00b0",
+          "PL": "Sco 27\u00b0",
+          "RA": "Pis 16\u00b0",
+          "KE": "Pis 16\u00b0"
+        },
+        "D40": {
+          "ASC": "Cap 19\u00b0",
+          "SU": "Lib 03\u00b0",
+          "MO": "Lib 09\u00b0",
+          "ME": "Aqu 07\u00b0",
+          "VE": "Ari 12\u00b0",
+          "MA": "Sag 10\u00b0",
+          "JU": "Pis 03\u00b0",
+          "SA": "Tau 04\u00b0",
+          "UR": "Aqu 09\u00b0",
+          "NE": "Sco 26\u00b0",
+          "PL": "Cap 26\u00b0",
+          "RA": "Sag 01\u00b0",
+          "KE": "Sag 01\u00b0"
+        },
+        "D45": {
+          "ASC": "Sag 18\u00b0",
+          "SU": "Sco 04\u00b0",
+          "MO": "Sco 03\u00b0",
+          "ME": "Sag 23\u00b0",
+          "VE": "Can 13\u00b0",
+          "MA": "Lib 26\u00b0",
+          "JU": "Can 07\u00b0",
+          "SA": "Vir 16\u00b0",
+          "UR": "Sag 25\u00b0",
+          "NE": "Aqu 18\u00b0",
+          "PL": "Leo 26\u00b0",
+          "RA": "Vir 09\u00b0",
+          "KE": "Vir 09\u00b0"
+        },
+        "D60": {
+          "ASC": "Sag 14\u00b0",
+          "SU": "Sco 05\u00b0",
+          "MO": "Can 14\u00b0",
+          "ME": "Tau 11\u00b0",
+          "VE": "Lib 18\u00b0",
+          "MA": "Gem 15\u00b0",
+          "JU": "Lib 19\u00b0",
+          "SA": "Cap 21\u00b0",
+          "UR": "Tau 14\u00b0",
+          "NE": "Can 24\u00b0",
+          "PL": "Leo 25\u00b0",
+          "RA": "Lib 02\u00b0",
+          "KE": "Ari 02\u00b0"
+        },
+        "D81": {
+          "ASC": "Vir 09\u00b0",
+          "SU": "Can 25\u00b0",
+          "MO": "Lib 23\u00b0",
+          "ME": "Pis 18\u00b0",
+          "VE": "Sco 12\u00b0",
+          "MA": "Vir 06\u00b0",
+          "JU": "Sco 19\u00b0",
+          "SA": "Pis 23\u00b0",
+          "UR": "Pis 22\u00b0",
+          "NE": "Sco 20\u00b0",
+          "PL": "Vir 23\u00b0",
+          "RA": "Sco 22\u00b0",
+          "KE": "Tau 22\u00b0"
+        },
+        "D108": {
+          "ASC": "Leo 02\u00b0",
+          "SU": "Tau 04\u00b0",
+          "MO": "Ari 01\u00b0",
+          "ME": "Gem 15\u00b0",
+          "VE": "Leo 26\u00b0",
+          "MA": "Aqu 28\u00b0",
+          "JU": "Aqu 05\u00b0",
+          "SA": "Leo 21\u00b0",
+          "UR": "Gem 19\u00b0",
+          "NE": "Vir 07\u00b0",
+          "PL": "Leo 21\u00b0",
+          "RA": "Lib 09\u00b0",
+          "KE": "Ari 09\u00b0"
+        },
+        "D144": {
+          "ASC": "Lib 23\u00b0",
+          "SU": "Leo 25\u00b0",
+          "MO": "Vir 22\u00b0",
+          "ME": "Pis 10\u00b0",
+          "VE": "Leo 25\u00b0",
+          "MA": "Can 08\u00b0",
+          "JU": "Pis 17\u00b0",
+          "SA": "Lib 28\u00b0",
+          "UR": "Pis 15\u00b0",
+          "NE": "Aqu 10\u00b0",
+          "PL": "Can 18\u00b0",
+          "RA": "Sco 22\u00b0",
+          "KE": "Tau 22\u00b0"
+        }
+      },
+      "divisional_chart_houses": {
+        "D1": [
+          1,
+          11,
+          10,
+          11,
+          10,
+          12,
+          9,
+          9,
+          11,
+          11,
+          9,
+          7,
+          1
+        ],
+        "D2": [
+          1,
+          1,
+          1,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          1,
+          1,
+          1,
+          1
+        ],
+        "D3": [
+          1,
+          7,
+          2,
+          3,
+          6,
+          8,
+          5,
+          5,
+          3,
+          11,
+          9,
+          3,
+          9
+        ],
+        "D4": [
+          1,
+          8,
+          1,
+          2,
+          7,
+          9,
+          3,
+          3,
+          2,
+          11,
+          9,
+          4,
+          10
+        ],
+        "D5": [
+          1,
+          3,
+          6,
+          7,
+          8,
+          2,
+          5,
+          5,
+          7,
+          1,
+          1,
+          3,
+          3
+        ],
+        "D6": [
+          1,
+          11,
+          2,
+          8,
+          5,
+          5,
+          10,
+          10,
+          8,
+          1,
+          1,
+          11,
+          11
+        ],
+        "D7": [
+          1,
+          9,
+          11,
+          5,
+          2,
+          3,
+          5,
+          6,
+          5,
+          11,
+          9,
+          5,
+          11
+        ],
+        "D8": [
+          1,
+          6,
+          7,
+          2,
+          10,
+          2,
+          1,
+          1,
+          2,
+          9,
+          5,
+          11,
+          11
+        ],
+        "D9": [
+          1,
+          4,
+          3,
+          11,
+          7,
+          12,
+          8,
+          9,
+          11,
+          7,
+          1,
+          4,
+          10
+        ],
+        "D10": [
+          1,
+          8,
+          6,
+          3,
+          11,
+          12,
+          4,
+          4,
+          3,
+          11,
+          9,
+          4,
+          10
+        ],
+        "D11": [
+          1,
+          11,
+          7,
+          6,
+          12,
+          9,
+          11,
+          12,
+          6,
+          3,
+          5,
+          4,
+          10
+        ],
+        "D12": [
+          1,
+          7,
+          12,
+          1,
+          6,
+          7,
+          3,
+          3,
+          1,
+          11,
+          9,
+          3,
+          9
+        ],
+        "D16": [
+          1,
+          11,
+          12,
+          3,
+          7,
+          2,
+          12,
+          1,
+          3,
+          5,
+          9,
+          8,
+          8
+        ],
+        "D20": [
+          1,
+          2,
+          9,
+          4,
+          6,
+          8,
+          6,
+          7,
+          4,
+          8,
+          5,
+          7,
+          7
+        ],
+        "D24": [
+          1,
+          4,
+          6,
+          4,
+          5,
+          3,
+          12,
+          1,
+          4,
+          12,
+          1,
+          5,
+          5
+        ],
+        "D27": [
+          1,
+          9,
+          6,
+          7,
+          6,
+          9,
+          10,
+          11,
+          7,
+          6,
+          1,
+          10,
+          4
+        ],
+        "D30": [
+          1,
+          5,
+          6,
+          7,
+          8,
+          2,
+          5,
+          5,
+          7,
+          1,
+          1,
+          5,
+          5
+        ],
+        "D40": [
+          1,
+          10,
+          10,
+          2,
+          4,
+          12,
+          3,
+          5,
+          2,
+          11,
+          1,
+          12,
+          12
+        ],
+        "D45": [
+          1,
+          12,
+          12,
+          1,
+          8,
+          11,
+          8,
+          10,
+          1,
+          3,
+          9,
+          10,
+          10
+        ],
+        "D60": [
+          1,
+          12,
+          8,
+          6,
+          11,
+          7,
+          11,
+          2,
+          6,
+          8,
+          9,
+          11,
+          5
+        ],
+        "D81": [
+          1,
+          11,
+          2,
+          7,
+          3,
+          1,
+          3,
+          7,
+          7,
+          3,
+          1,
+          3,
+          9
+        ],
+        "D108": [
+          1,
+          10,
+          9,
+          11,
+          1,
+          7,
+          7,
+          1,
+          11,
+          2,
+          1,
+          3,
+          9
+        ],
+        "D144": [
+          1,
+          11,
+          12,
+          6,
+          11,
+          10,
+          6,
+          1,
+          6,
+          5,
+          10,
+          2,
+          8
+        ]
+      },
+      "arudha_lagnas": {
+        "A1": {
+          "lagna": "Taurus",
+          "house": "H5"
+        },
+        "A2": {
+          "lagna": "Aries",
+          "house": "H4"
+        },
+        "A3": {
+          "lagna": "Sagittarius",
+          "house": "H12"
+        },
+        "A4": {
+          "lagna": "Leo",
+          "house": "H8"
+        },
+        "A5": {
+          "lagna": "Pisces",
+          "house": "H3"
+        },
+        "A6": {
+          "lagna": "Aries",
+          "house": "H4"
+        },
+        "A7": {
+          "lagna": "Libra",
+          "house": "H10"
+        },
+        "A8": {
+          "lagna": "Scorpio",
+          "house": "H11"
+        },
+        "A9": {
+          "lagna": "Capricorn",
+          "house": "H1"
+        },
+        "A10": {
+          "lagna": "Cancer",
+          "house": "H7"
+        },
+        "A11": {
+          "lagna": "Capricorn",
+          "house": "H1"
+        },
+        "A12": {
+          "lagna": "Pisces",
+          "house": "H3"
+        }
+      },
+      "char_karakas": {
+        "AK": {
+          "planet": "Venus",
+          "degree": 18
+        },
+        "AmK": {
+          "planet": "Sun",
+          "degree": 18
+        },
+        "BK": {
+          "planet": "Mars",
+          "degree": 15
+        },
+        "MK": {
+          "planet": "Saturn",
+          "degree": 14
+        },
+        "PiK": {
+          "planet": "Jupiter",
+          "degree": 12
+        },
+        "PuK": {
+          "planet": "Rahu",
+          "degree": 19
+        },
+        "GK": {
+          "planet": "Moon",
+          "degree": 10
+        },
+        "DK": {
+          "planet": "Mercury",
+          "degree": 4
+        }
+      }
+    }
+  }
+}
