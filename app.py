@@ -1,17 +1,26 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, abort
 from transit_checker import calculate_aspects, find_transit_windows, get_sign_info
 import swisseph as swe
 import datetime
 import os
+import json
+import logging
 
 app = Flask(__name__)
 
-# Setup Swiss Ephemeris absolute path
+# Setup Swiss Ephemeris path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EPHE_PATH = os.path.join(BASE_DIR, "swisseph_data")
 print("Setting ephemeris path to:", EPHE_PATH)
-print("Files in ephemeris dir:", os.listdir(EPHE_PATH))
+try:
+    print("Files in ephemeris dir:", os.listdir(EPHE_PATH))
+except FileNotFoundError:
+    print("Warning: swisseph_data directory not found.")
 swe.set_ephe_path(EPHE_PATH)
+
+@app.route("/")
+def root():
+    return "✅ Swiss Ephemeris API is live!"
 
 @app.route("/transit", methods=["GET"])
 def transit():
@@ -70,23 +79,16 @@ def transit():
         "positions": output
     })
 
-@app.route("/")
-def root():
-    return "✅ Swiss Ephemeris API is live!"
-
-@app.route('/aspects', methods=['POST'])
+@app.route("/aspects", methods=["POST"])
 def aspects():
     try:
         data = request.get_json()
-
         natal_chart = data.get("natal_chart")
         transits = data.get("transits")
         orb = float(data.get("orb", 2.0))
 
         if not natal_chart or not transits:
-            return jsonify({
-                "error": "Missing required fields: 'natal_chart' and/or 'transits'"
-            }), 400
+            return jsonify({"error": "Missing required fields: 'natal_chart' and/or 'transits'"}), 400
 
         results = calculate_aspects(transits, natal_chart, orb)
         return jsonify({"aspects": results})
@@ -94,11 +96,10 @@ def aspects():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route('/transit-windows', methods=['POST'])
+@app.route("/transit-windows", methods=["POST"])
 def transit_windows():
     try:
         data = request.get_json()
-
         transit_planet = data.get("transit_planet")
         natal_planet = data.get("natal_planet")
         natal_deg = float(data.get("natal_degree"))
@@ -125,11 +126,10 @@ def transit_windows():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route('/transit-windows/batch', methods=['POST'])
+@app.route("/transit-windows/batch", methods=["POST"])
 def batch_transit_windows():
     try:
         data = request.get_json()
-
         natal_chart = data.get("natal_chart")
         start_date = data.get("start_date")
         end_date = data.get("end_date")
@@ -169,3 +169,48 @@ def batch_transit_windows():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+@app.route("/natal-chart/western", methods=["GET"])
+def natal_chart_western():
+    try:
+        file_path = os.path.join(BASE_DIR, "KTC_guru.json")
+        if not os.path.exists(file_path):
+            abort(500, description="Western chart file not found.")
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return jsonify(data)
+    except Exception as e:
+        logging.exception("Error loading western chart.")
+        abort(500, description="Failed to load western chart.")
+
+@app.route("/natal-chart/vedic", methods=["GET"])
+def natal_chart_vedic():
+    try:
+        chart_path = os.path.join(BASE_DIR, "KVC_guru.json")
+        dashas_path = os.path.join(BASE_DIR, "KDashas_guru.json")
+
+        if not os.path.isfile(chart_path):
+            logging.error("Missing KVC_guru.json")
+            abort(500, description="Vedic chart file missing.")
+        if not os.path.isfile(dashas_path):
+            logging.error("Missing KDashas_guru.json")
+            abort(500, description="Dasha file missing.")
+
+        with open(chart_path, "r", encoding="utf-8") as f1:
+            chart_data = json.load(f1)
+        with open(dashas_path, "r", encoding="utf-8") as f2:
+            dashas_data = json.load(f2)
+
+        if "charts" not in chart_data or "sidereal" not in chart_data["charts"]:
+            abort(500, description="Malformed Vedic chart file.")
+        if "dashas" not in dashas_data:
+            abort(500, description="Malformed Dasha file.")
+
+        return jsonify({
+            "chart": chart_data["charts"]["sidereal"],
+            "dashas": dashas_data["dashas"]
+        })
+
+    except Exception as e:
+        logging.exception("Error loading Vedic chart.")
+        abort(500, description="Failed to load Vedic chart.")
