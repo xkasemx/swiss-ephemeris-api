@@ -1,216 +1,106 @@
-from flask import Flask, request, jsonify, abort
-from transit_checker import calculate_aspects, find_transit_windows, get_sign_info
-import swisseph as swe
-import datetime
 import os
 import json
-import logging
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+from datetime import datetime
+from aspects import calculate_aspects  # assumes you have this helper
+from transit_checker import get_transit_for_date  # optional helper
+import pytz
 
 app = Flask(__name__)
+CORS(app)
 
-# Setup Swiss Ephemeris path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EPHE_PATH = os.path.join(BASE_DIR, "swisseph_data")
-print("Setting ephemeris path to:", EPHE_PATH)
-try:
-    print("Files in ephemeris dir:", os.listdir(EPHE_PATH))
-except FileNotFoundError:
-    print("Warning: swisseph_data directory not found.")
-swe.set_ephe_path(EPHE_PATH)
+
+# === UTILITY HELPERS ===
+
+def sign_to_offset(sign):
+    """Convert zodiac sign name to degree offset."""
+    signs = [
+        "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo",
+        "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"
+    ]
+    return signs.index(sign) * 30 if sign in signs else 0
+
+def build_aspects_payload(chart_data, transit_data, orb=4):
+    """Constructs the full aspects payload from live chart and transit data."""
+    # Start with natal planets
+    natal_chart = {
+        planet: info["degree"]
+        for planet, info in chart_data.get("planets", {}).items()
+    }
+
+    # Add chart angles
+    try:
+        angles = chart_data["angles"]
+        asc_deg = angles["ASC"]["degree"] + sign_to_offset(angles["ASC"]["sign"])
+        mc_deg = angles["MC"]["degree"] + sign_to_offset(angles["MC"]["sign"])
+        natal_chart["ASC"] = asc_deg % 360
+        natal_chart["DESC"] = (asc_deg + 180) % 360
+        natal_chart["MC"] = mc_deg % 360
+        natal_chart["IC"] = (mc_deg + 180) % 360
+    except Exception as e:
+        print(f"⚠️ Could not add angles to natal chart: {e}")
+
+    # Transits
+    transits = {
+        planet: info["longitude"]
+        for planet, info in transit_data.get("positions", {}).items()
+    }
+
+    return {
+        "natal_chart": natal_chart,
+        "transits": transits,
+        "orb": orb
+    }
+
+# === ROUTES ===
 
 @app.route("/")
 def root():
-    return "✅ Swiss Ephemeris API is live!"
+    return jsonify({"message": "🪐 Karma is listening."})
 
-@app.route("/transit", methods=["GET"])
-def transit():
-    date_str = request.args.get("date", "")
-    zodiac = request.args.get("zodiac", "tropical").lower()
 
+@app.route("/transit", methods=["POST"])
+def get_transit():
     try:
-        year, month, day = map(int, date_str.split("-"))
-        jd = swe.julday(year, month, day)
-    except:
-        return jsonify({"error": "Invalid or missing date. Use format: YYYY-MM-DD"}), 400
+        data = request.get_json()
+        date = data.get("date")
+        zodiac = data.get("zodiac", "tropical")
 
-    if zodiac == "sidereal":
-        swe.set_sid_mode(swe.SIDM_LAHIRI)
-        flag = swe.FLG_SIDEREAL
-    else:
-        flag = 0
+        if not date:
+            return jsonify({"error": "Missing 'date' in request."}), 400
 
-    planets = {
-        "Sun": swe.SUN,
-        "Moon": swe.MOON,
-        "Mercury": swe.MERCURY,
-        "Venus": swe.VENUS,
-        "Mars": swe.MARS,
-        "Jupiter": swe.JUPITER,
-        "Saturn": swe.SATURN,
-        "Uranus": swe.URANUS,
-        "Neptune": swe.NEPTUNE,
-        "Pluto": swe.PLUTO,
-        "True Node": swe.TRUE_NODE,
-        "Chiron": swe.CHIRON,
-        "Lilith": swe.MEAN_APOG
-    }
+        transit = get_transit_for_date(date=date, zodiac=zodiac)
+        return jsonify(transit)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
-    output = {}
-
-    for name, const in planets.items():
-        try:
-            pos, _ = swe.calc_ut(jd, const, flag | swe.FLG_SPEED)
-            longitude = round(pos[0], 4)
-            speed = round(pos[3], 4)
-            retrograde = speed < 0
-
-            output[name] = {
-                "longitude": longitude,
-                "speed": speed,
-                "retrograde": retrograde,
-                "sign": get_sign_info(longitude)
-            }
-        except Exception as e:
-            output[name] = {"error": str(e)}
-
-    return jsonify({
-        "date": date_str,
-        "zodiac": zodiac,
-        "positions": output
-    })
 
 @app.route("/aspects", methods=["POST"])
 def aspects():
     try:
+        # Load natal chart (Western only — can extend this if needed)
+        chart_path = os.path.join(BASE_DIR, "KTC_guru.json")
+        with open(chart_path, "r", encoding="utf-8") as f:
+            natal_data = json.load(f)
+
+        # Require transit data to be passed in
         data = request.get_json()
-        natal_chart = data.get("natal_chart")
-        transits = data.get("transits")
-        orb = float(data.get("orb", 2.0))
+        transit_data = data.get("transit_data")
+        if not transit_data:
+            return jsonify({"error": "Missing 'transit_data' in request."}), 400
 
-        if not natal_chart or not transits:
-            return jsonify({"error": "Missing required fields: 'natal_chart' and/or 'transits'"}), 400
+        # Build full aspect payload (with angles, orb = 4)
+        payload = build_aspects_payload(natal_data["chart"], transit_data, orb=4)
 
-        results = calculate_aspects(transits, natal_chart, orb)
+        # Calculate aspects
+        results = calculate_aspects(payload["transits"], payload["natal_chart"], payload["orb"])
         return jsonify({"aspects": results})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route("/transit-windows", methods=["POST"])
-def transit_windows():
-    try:
-        data = request.get_json()
-        transit_planet = data.get("transit_planet")
-        natal_planet = data.get("natal_planet")
-        natal_deg = float(data.get("natal_degree"))
-        aspect_angle = float(data.get("aspect_angle"))
-        orb = float(data.get("orb", 2.5))
-        start_date = data.get("start_date")
-        end_date = data.get("end_date")
 
-        if not all([transit_planet, natal_planet, natal_deg, aspect_angle, start_date, end_date]):
-            return jsonify({"error": "Missing one or more required fields"}), 400
-
-        result = find_transit_windows(
-            transit_planet=transit_planet,
-            natal_planet=natal_planet,
-            natal_deg=natal_deg,
-            aspect_angle=aspect_angle,
-            orb=orb,
-            start_date=start_date,
-            end_date=end_date
-        )
-
-        return jsonify(result or {"message": "No aspect found in that window"})
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-@app.route("/transit-windows/batch", methods=["POST"])
-def batch_transit_windows():
-    try:
-        data = request.get_json()
-        natal_chart = data.get("natal_chart")
-        start_date = data.get("start_date")
-        end_date = data.get("end_date")
-        orb = float(data.get("orb", 2.5))
-        transit_planets = data.get("transit_planets", ["Sun", "Moon", "Mercury", "Venus", "Mars", "Jupiter", "Saturn"])
-
-        aspects = {
-            "Conjunction": 0,
-            "Sextile": 60,
-            "Square": 90,
-            "Trine": 120,
-            "Opposition": 180
-        }
-
-        if not natal_chart or not start_date or not end_date:
-            return jsonify({"error": "Missing required fields: 'natal_chart', 'start_date', or 'end_date'"}), 400
-
-        results = []
-
-        for t_planet in transit_planets:
-            for n_planet, n_deg in natal_chart.items():
-                for aspect_name, aspect_angle in aspects.items():
-                    window = find_transit_windows(
-                        transit_planet=t_planet,
-                        natal_planet=n_planet,
-                        natal_deg=n_deg,
-                        aspect_angle=aspect_angle,
-                        orb=orb,
-                        start_date=start_date,
-                        end_date=end_date
-                    )
-                    if window:
-                        window["aspect"] = aspect_name
-                        results.append(window)
-
-        return jsonify({"results": results})
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-@app.route("/natal-chart/western", methods=["GET"])
-def natal_chart_western():
-    try:
-        file_path = os.path.join(BASE_DIR, "KTC_guru.json")
-        if not os.path.exists(file_path):
-            abort(500, description="Western chart file not found.")
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return jsonify(data)
-    except Exception as e:
-        logging.exception("Error loading western chart.")
-        abort(500, description="Failed to load western chart.")
-
-@app.route("/natal-chart/vedic", methods=["GET"])
-def natal_chart_vedic():
-    try:
-        chart_path = os.path.join(BASE_DIR, "KVC_guru.json")
-        dashas_path = os.path.join(BASE_DIR, "KDashas_guru.json")
-
-        if not os.path.isfile(chart_path):
-            logging.error("Missing KVC_guru.json")
-            abort(500, description="Vedic chart file missing.")
-        if not os.path.isfile(dashas_path):
-            logging.error("Missing KDashas_guru.json")
-            abort(500, description="Dasha file missing.")
-
-        with open(chart_path, "r", encoding="utf-8") as f1:
-            chart_data = json.load(f1)
-        with open(dashas_path, "r", encoding="utf-8") as f2:
-            dashas_data = json.load(f2)
-
-        if "charts" not in chart_data or "sidereal" not in chart_data["charts"]:
-            abort(500, description="Malformed Vedic chart file.")
-        if "dashas" not in dashas_data:
-            abort(500, description="Malformed Dasha file.")
-
-        return jsonify({
-            "chart": chart_data["charts"]["sidereal"],
-            "dashas": dashas_data["dashas"]
-        })
-
-    except Exception as e:
-        logging.exception("Error loading Vedic chart.")
-        abort(500, description="Failed to load Vedic chart.")
+if __name__ == "__main__":
+    app.run(debug=True)
