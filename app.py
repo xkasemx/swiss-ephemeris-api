@@ -80,22 +80,17 @@ def get_transit():
 @app.route("/aspects", methods=["POST"])
 def aspects():
     try:
-        # Load natal chart (Western only — can extend this if needed)
-        chart_path = os.path.join(BASE_DIR, "KTC_guru.json")
-        with open(chart_path, "r", encoding="utf-8") as f:
-            natal_data = json.load(f)
-
-        # Require transit data to be passed in
         data = request.get_json()
-        transit_data = data.get("transit_data")
-        if not transit_data:
-            return jsonify({"error": "Missing 'transit_data' in request."}), 400
 
-        # Build full aspect payload (with angles, orb = 4)
-        payload = build_aspects_payload(natal_data["chart"], transit_data, orb=4)
+        natal_chart = data.get("natal_chart")
+        transits = data.get("transits")
+        orb = data.get("orb", 2)
 
-        # Calculate aspects
-        results = calculate_aspects(payload["transits"], payload["natal_chart"], payload["orb"])
+        if not natal_chart or not transits:
+            return jsonify({"error": "Missing natal_chart or transits in request."}), 400
+
+        # Calculate aspects using provided data
+        results = calculate_aspects(transits, natal_chart, orb)
         return jsonify({"aspects": results})
 
     except Exception as e:
