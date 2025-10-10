@@ -95,7 +95,50 @@ def aspects():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+        
+@app.route("/natal-chart/western", methods=["POST"])
+def get_western_natal_chart():
+    try:
+        data = request.get_json()
+        date_str = data.get("date")
+        time_str = data.get("time")
+        tz_str = data.get("timezone", "UTC")
+        location = data.get("location", {})
 
+        if not date_str or not time_str or not location:
+            return jsonify({"error": "Missing required birth data"}), 400
+
+        # Parse datetime with timezone
+        from datetime import datetime
+        import pytz
+
+        naive_dt = datetime.strptime(f"{date_str} {time_str}", "%Y-%m-%d %H:%M")
+        tz = pytz.timezone(tz_str)
+        dt = tz.localize(naive_dt)
+        utc_dt = dt.astimezone(pytz.utc)
+
+        # Convert to Julian Day
+        import swisseph as swe
+        swe.set_ephe_path(os.path.join(BASE_DIR, "swisseph_data"))
+
+        jd_ut = swe.julday(utc_dt.year, utc_dt.month, utc_dt.day,
+                           utc_dt.hour + utc_dt.minute / 60.0)
+
+        lat = location.get("lat", 0)
+        lon = location.get("lon", 0)
+
+        # Get planetary positions
+        planets = {}
+        for planet in [swe.SUN, swe.MOON, swe.MERCURY, swe.VENUS, swe.MARS,
+                       swe.JUPITER, swe.SATURN, swe.URANUS, swe.NEPTUNE, swe.PLUTO]:
+            lon_deg, _, _, _, _, _ = swe.calc_ut(jd_ut, planet)
+            planet_name = swe.get_planet_name(planet)
+            planets[planet_name] = {"degree": lon_deg}
+
+        return jsonify({"planets": planets})
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
     app.run(debug=True)
