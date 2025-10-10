@@ -118,3 +118,40 @@ def get_sign_info(longitude):
         "degree": int(degree_in_sign),
         "minute": int(round((degree_in_sign % 1) * 60))
     }
+    
+def get_transit_for_date(date, zodiac='tropical'):
+    jd = swe.julday(*map(int, date.split("-")))
+
+    planet_ids = {
+        "Sun": swe.SUN,
+        "Moon": swe.MOON,
+        "Mercury": swe.MERCURY,
+        "Venus": swe.VENUS,
+        "Mars": swe.MARS,
+        "Jupiter": swe.JUPITER,
+        "Saturn": swe.SATURN,
+        "Uranus": swe.URANUS,
+        "Neptune": swe.NEPTUNE,
+        "Pluto": swe.PLUTO,
+        "North Node": swe.TRUE_NODE,
+        "Chiron": swe.CHIRON,
+        "Lilith": swe.MEAN_APOG
+    }
+
+    if zodiac == 'sidereal':
+        swe.set_sid_mode(swe.SIDM_LAHIRI)
+
+    positions = {}
+
+    for name, pid in planet_ids.items():
+        pos, _ = swe.calc_ut(jd, pid)
+        positions[name] = {
+            "longitude": pos[0],
+            "retrograde": pos[3] < 0
+        }
+
+    return {
+        "date": date,
+        "zodiac": zodiac,
+        "positions": positions
+    }
