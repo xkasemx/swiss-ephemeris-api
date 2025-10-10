@@ -3,7 +3,7 @@ import json
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from datetime import datetime
-from aspects import calculate_aspects  # assumes you have this helper
+from transit_checker import calculate_aspects  # assumes you have this helper
 from transit_checker import get_transit_for_date  # optional helper
 import pytz
 
