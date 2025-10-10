@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from datetime import datetime
 from transit_checker import calculate_aspects  # assumes you have this helper
-from transit_checker impt get_transit_for_date  # optional helper
+from transit_checker import get_transit_for_date  # optional helper
 import pytz
 
 app = Flask(__name__)
