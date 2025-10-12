@@ -1,9 +1,11 @@
 {
   "metadata": {
-    "type": "Vimshottari",
+  "type": "Vimshottari",
+  "name": "Kasem",
+  "birth_datetime": "1980-12-03T11:37:00-05:00",
+  "birth_timezone": "America/New_York",
+  "source": "User-supplied static file",
     "source": "User-supplied complete timeline with Antardashas",
-    "generated": "2025-10-06T00:00:00Z",
-    "timezone": "UTC",
     "notes": "Full 120-year Vimshottari cycle with Mahadashas and Antardashas, computed from Moon in Chitra Nakshatra (Libra)."
   },
   "dashas": [

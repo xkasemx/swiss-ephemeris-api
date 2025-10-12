@@ -1,26 +1,18 @@
-{
+  {
+  "metadata": {
+  "type": "Vedic",
+  "chart_style": "Sidereal"",
+  "name": "Kasem",
+  "birth_datetime": "1980-12-03T11:37:00-05:00",
+  "birth_timezone": "America/New_York",
+  "source": "User-supplied static file",
+  "notes": "Charts of planets and Vedic aspects."
+  },
   "charts": {
     "sidereal": {
       "chart_type": "Sidereal",
       "house_system": "Whole Sign",
-      "metadata": {
-        "name": "Kasem",
-        "birth_date": "1980-12-03",
-        "birth_time": "11:37",
-        "universal_time": "1980-12-03T16:37:00Z",
-        "local_sidereal_time": "16:31:17",
-        "ayanamsa": "23\u00b035\u2019 (Lahiri)",
-        "house_system": "Whole Sign",
-        "location": {
-          "latitude": "40\u00b044'N",
-          "longitude": "74\u00b05'W",
-          "city": "Jersey City",
-          "state": "NJ",
-          "country": "United States"
-        },
-        "timezone": "EST"
       },
-      "planets": {
         "Sun": {
           "sign": "Scorpio",
           "degree": 18.08,
