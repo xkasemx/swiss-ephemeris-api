@@ -59,7 +59,33 @@ def build_aspects_payload(chart_data, transit_data, orb=4):
 @app.route("/")
 def root():
     return jsonify({"message": "🪐 Karma is listening."})
+    
+@app.route("/natal-chart/western", methods=["GET"])
+def get_western_chart():
+    try:
+        with open("KTC_guru.json", "r") as f:
+            data = json.load(f)
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
+@app.route("/natal-chart/vedic", methods=["GET"])
+def get_vedic_chart():
+    try:
+        with open("KVC_guru.json", "r") as f:
+            data = json.load(f)
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/dashas", methods=["GET"])
+def get_dashas():
+    try:
+        with open("KDashas_guru.json", "r") as f:
+            data = json.load(f)
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 @app.route("/transit", methods=["POST"])
 def get_transit():
@@ -96,46 +122,6 @@ def aspects():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
         
-@app.route("/natal-chart/western", methods=["GET"])
-def get_western_natal_chart():
-    try:
-        from datetime import datetime
-        import pytz
-        import swisseph as swe
-
-        # Parse query params
-        date_str = request.args.get("date")
-        time_str = request.args.get("time")
-        tz_str = request.args.get("timezone", "UTC")
-        lat = float(request.args.get("lat", 0))
-        lon = float(request.args.get("lon", 0))
-
-        if not date_str or not time_str:
-            return jsonify({"error": "Missing birth date/time"}), 400
-
-        # Parse datetime with timezone
-        naive_dt = datetime.strptime(f"{date_str} {time_str}", "%Y-%m-%d %H:%M")
-        tz = pytz.timezone(tz_str)
-        dt = tz.localize(naive_dt)
-        utc_dt = dt.astimezone(pytz.utc)
-
-        # Convert to Julian Day
-        swe.set_ephe_path(os.path.join(BASE_DIR, "swisseph_data"))
-        jd_ut = swe.julday(utc_dt.year, utc_dt.month, utc_dt.day,
-                           utc_dt.hour + utc_dt.minute / 60.0)
-
-        # Get planetary positions
-        planets = {}
-        for planet in [swe.SUN, swe.MOON, swe.MERCURY, swe.VENUS, swe.MARS,
-                       swe.JUPITER, swe.SATURN, swe.URANUS, swe.NEPTUNE, swe.PLUTO]:
-            lon_deg, _, _, _, _, _ = swe.calc_ut(jd_ut, planet)
-            name = swe.get_planet_name(planet)
-            planets[name] = {"degree": lon_deg}
-
-        return jsonify({"chart": {"planets": planets}})
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":
